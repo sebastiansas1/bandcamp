@@ -21,7 +21,7 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
   const [isLoading, setIsLoading] = useState(false);
   const [albums, setAlbums] = useState([]);
   const [tracks, setTracks] = useState([]);
-  const [playerState, setPlayerState] = useState(null);
+  const [trackPlaying, setTrackPlaying] = useState(null);
 
   const [scrollHeight, setScrollHeight] = useState(0);
   const [artistNameOpacity, setArtistNameOpacity] = useState(1);
@@ -67,6 +67,18 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
   useEffect(() => {
     getAlbums();
   }, []);
+
+  const playTrack = (track) => {
+    if (isPlaying(track, trackPlaying)) {
+      TrackPlayer.pause();
+    } else {
+      const song = createTrack(track);
+      TrackPlayer.stop();
+      setTrackPlaying(song.id);
+      TrackPlayer.add(song);
+      TrackPlayer.play();
+    }
+  }
 
   return (
     <View style={styles.mainContainer}>
@@ -125,18 +137,13 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
                   title={track.title}
                   subtitle={track.raw.current['publish_date'].slice(3, 11)}
                   paragraph={`Duration: ${convertInMinutes(track.raw.trackinfo[0].duration)}`}
-                  onPress={() => {
-                    const song = createTrack(track);
-                    TrackPlayer.stop();
-                    TrackPlayer.add(song);
-                    TrackPlayer.play();
-                  }}
+                  onPress={() => playTrack(track)}
                   endSlot={
                     <Icon
-                      name="play-circle-outline"
-                      color={colors.white}
+                      name={isPlaying(track, trackPlaying) ? "play-circle-filled" : "play-circle-outline"}
+                      color={isPlaying(track, trackPlaying) ? colors.blue : colors.white}
                       size={25}
-                      onPress={() => alert('Play!')}
+                      onPress={() => playTrack(track)}
                       style={{ alignSelf: 'center', position: 'absolute', right: 10 }}
                     />
                   }
@@ -148,6 +155,14 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
       </ScrollView>
     </View>
   );
+}
+
+const getTrackId = (track) => {
+  return `${track.raw.artist}---${track.title}`;
+}
+
+const isPlaying = (track, trackPlaying) => {
+  return getTrackId(track) === trackPlaying;
 }
 
 const createTrack = (track) => {
