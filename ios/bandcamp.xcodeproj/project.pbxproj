@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* bandcampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bandcampTests.m */; };
 		57F31C77C9F84B41F6190D09 /* libPods-bandcamp-bandcampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B12532A36F4E55AAC6EBA85 /* libPods-bandcamp-bandcampTests.a */; };
 		9ED804C6BE3B43493C97E2E9 /* libPods-bandcamp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F850AF28E9D0732DEA3077 /* libPods-bandcamp-tvOSTests.a */; };
+		AEA33C8F244B68AF00AA0258 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA33C8E244B68AF00AA0258 /* dummy.swift */; };
 		D33B3741D9D8CD2ED3C1CC95 /* libPods-bandcamp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F77072CA303F9A870F55D94 /* libPods-bandcamp-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,8 @@
 		A386958A832D4DC79D4CD968 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		ACAF4125A8106E8CFE9E5D75 /* Pods-bandcamp-bandcampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bandcamp-bandcampTests.debug.xcconfig"; path = "Target Support Files/Pods-bandcamp-bandcampTests/Pods-bandcamp-bandcampTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD413432F215E7044855253C /* Pods-bandcamp-bandcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bandcamp-bandcampTests.release.xcconfig"; path = "Target Support Files/Pods-bandcamp-bandcampTests/Pods-bandcamp-bandcampTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEA33C8D244B68AE00AA0258 /* bandcamp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bandcamp-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEA33C8E244B68AF00AA0258 /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 		CBFA85E79D39420D955D460E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		CF10C646E1CA460F91AE9811 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		E11F17C93860B442676046E9 /* Pods-bandcamp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bandcamp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-bandcamp-tvOSTests/Pods-bandcamp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				AEA33C8E244B68AF00AA0258 /* dummy.swift */,
+				AEA33C8D244B68AE00AA0258 /* bandcamp-Bridging-Header.h */,
 			);
 			name = bandcamp;
 			sourceTree = "<group>";
@@ -333,7 +338,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						DevelopmentTeam = U6TMVJBCA5;
+						LastSwiftMigration = 1140;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -668,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				AEA33C8F244B68AF00AA0258 /* dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +728,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACAF4125A8106E8CFE9E5D75 /* Pods-bandcamp-bandcampTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -744,6 +752,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD413432F215E7044855253C /* Pods-bandcamp-bandcampTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = bandcampTests/Info.plist;
@@ -767,6 +776,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6TMVJBCA5;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -781,6 +791,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = bandcamp;
+				SWIFT_OBJC_BRIDGING_HEADER = "bandcamp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -794,6 +805,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6TMVJBCA5;
 				INFOPLIST_FILE = bandcamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -803,6 +815,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = bandcamp;
+				SWIFT_OBJC_BRIDGING_HEADER = "bandcamp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

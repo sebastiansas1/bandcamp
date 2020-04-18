@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { View, Image, Text, Dimensions, ActivityIndicator } from 'react-native';
 import axios from 'axios';
-
 import { ScrollView } from 'react-native-gesture-handler';
 import LinearGradient from 'react-native-linear-gradient';
+import TrackPlayer from 'react-native-track-player';
+
 import ArtistScreenNav from '../components/ArtistScreenNav';
 import styles from './styles/ArtistScreenStyles';
 import { endpoints } from '../utils/ApiUtility';
@@ -11,11 +12,16 @@ import ArtistItemCard from '../components/ArtistItemCard';
 import Icon from '../components/Icon';
 import colors from '../consts/colors';
 
+TrackPlayer.setupPlayer().then(() => {
+  // The player is ready to be used
+});
+
 export default function ArtistScreen({ route, navigation: { navigate } }) {
-  const { name, imageUrl, location, url: artistUrl } = route.params;
+  const { name: artistName, imageUrl, location, url: artistUrl } = route.params;
   const [isLoading, setIsLoading] = useState(false);
   const [albums, setAlbums] = useState([]);
   const [tracks, setTracks] = useState([]);
+  const [playerState, setPlayerState] = useState(null);
 
   const [scrollHeight, setScrollHeight] = useState(0);
   const [artistNameOpacity, setArtistNameOpacity] = useState(1);
@@ -48,8 +54,8 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
     setIsLoading(true);
     try {
       const { data } = await axios.get(endpoints.albums, { params: { artistUrl } });
-      const filteredAlbums = data.results.filter((item) => item.tracks.length > 0);
-      const filteredTracks = data.results.filter((item) => item.tracks.length === 0);
+      const filteredAlbums = data.results.filter((item) => item.raw["item_type"] === "album");
+      const filteredTracks = data.results.filter((item) => item.raw["item_type"] === "track");
       setAlbums(filteredAlbums);
       setTracks(filteredTracks);
     } catch (error) {
@@ -69,7 +75,7 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
         onBack={() => navigate('Search')}
         onMore={() => alert('More')}
         followButtonOpacity={followBtnOpacity}
-        headerText={name}
+        headerText={artistName}
         headerOpacity={headerOpacity}
       />
       <Image source={{ uri: imageUrl, height: 400, width: Dimensions.get('window').width }} style={styles.image} />
@@ -83,7 +89,7 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
           style={styles.gradient}
         />
         <View style={styles.middleContainer}>
-          <Text style={{ ...styles.artistName, opacity: artistNameOpacity, fontSize: 60 - name.length }}>{name}</Text>
+          <Text style={{ ...styles.artistName, opacity: artistNameOpacity, fontSize: 60 - artistName.length }}>{artistName}</Text>
           <Text style={{ ...styles.artistLocation, opacity: artistNameOpacity }}>{location}</Text>
         </View>
         {isLoading && <ActivityIndicator style={styles.spinner} />}
@@ -119,7 +125,12 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
                   title={track.title}
                   subtitle={track.raw.current['publish_date'].slice(3, 11)}
                   paragraph={`Duration: ${convertInMinutes(track.raw.trackinfo[0].duration)}`}
-                  onPress={() => alert(track.title)}
+                  onPress={() => {
+                    const song = createTrack(track);
+                    TrackPlayer.stop();
+                    TrackPlayer.add(song);
+                    TrackPlayer.play();
+                  }}
                   endSlot={
                     <Icon
                       name="play-circle-outline"
@@ -137,6 +148,16 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
       </ScrollView>
     </View>
   );
+}
+
+const createTrack = (track) => {
+  return {
+    id: `${track.raw.artist}---${track.title}`,
+    url: track.raw.trackinfo[0].file["mp3-128"],
+    title: track.title,
+    artist: track.raw.artist,
+    artwork: track.imageUrl
+  }
 }
 
 const convertInMinutes = (value) => {

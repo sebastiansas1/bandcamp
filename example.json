@@ -1,0 +1,4480 @@
+{
+  "results": [
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "romanian"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "breakbeat"
+        },
+        {
+          "name": "microhouse"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "rominimal"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Contratimp (edit from Ana Coman)",
+      "imageUrl": "https://f4.bcbits.com/img/a4011677550_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "license_type": 1,
+          "lyrics": null,
+          "publish_date": "08 Apr 2020 21:37:28 GMT",
+          "new_date": "08 Apr 2020 21:37:24 GMT",
+          "audit": 0,
+          "title": "Contratimp (edit from Ana Coman)",
+          "album_id": null,
+          "set_price": 1,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "08 Apr 2020 21:37:28 GMT",
+          "pending_encodings_id": null,
+          "is_set_price": null,
+          "download_pref": 2,
+          "isrc": null,
+          "encodings_id": 1549097896,
+          "minimum_price_nonzero": 3,
+          "private": null,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 2725900346,
+          "minimum_price": 3,
+          "require_email": null,
+          "streaming": 1,
+          "art_id": 4011677550,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "type": "track",
+          "release_date": "08 Apr 2020 21:37:28 GMT",
+          "band_id": 544922295,
+          "require_email_0": null,
+          "file_name": null,
+          "track_number": null
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 4011677550,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Contratimp (edit from Ana Coman)",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2725900346,
+            "video_caption": null,
+            "title_link": "/track/contratimp-edit-from-ana-coman",
+            "private": null,
+            "encodings_id": 1549097896,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2725900346,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/1efccb982fecc4c2122f2c001d1fa55a/mp3-128/2725900346?p=0&ts=1587317625&t=1be0338d8e7b9a88ff9c39f1ca85da78acf2dc91&token=1587317625_dfc72e91e57bec39a989679dce63cb64c3d41d9f"
+            },
+            "video_source_id": null,
+            "duration": 760.645,
+            "track_num": null
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/contratimp-edit-from-ana-coman",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 2725900346,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/contratimp-edit-from-ana-coman"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Planethinking",
+      "imageUrl": "https://f4.bcbits.com/img/a2986860906_2.jpg",
+      "tracks": [
+        {
+          "name": "Planethinking",
+          "url": "https://marcurares.bandcamp.com/track/planethinking",
+          "duration": "11:15"
+        },
+        {
+          "name": "Fkd me up",
+          "url": "https://marcurares.bandcamp.com/track/fkd-me-up",
+          "duration": "07:19"
+        }
+      ],
+      "raw": {
+        "current": {
+          "publish_date": "31 Mar 2020 23:52:51 GMT",
+          "new_date": "31 Mar 2020 23:44:37 GMT",
+          "audit": 0,
+          "upc": null,
+          "title": "Planethinking",
+          "set_price": 7,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "31 Mar 2020 23:53:14 GMT",
+          "is_set_price": null,
+          "download_pref": 2,
+          "purchase_title": null,
+          "minimum_price_nonzero": 3,
+          "private": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 3441480072,
+          "minimum_price": 3,
+          "require_email": null,
+          "featured_track_id": 2430571448,
+          "art_id": 2986860906,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "type": "album",
+          "release_date": "31 Mar 2020 23:52:51 GMT",
+          "band_id": 544922295,
+          "require_email_0": null
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "31 Mar 2020 23:52:51 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 2986860906,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Planethinking",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2430571448,
+            "video_caption": null,
+            "title_link": "/track/planethinking",
+            "private": null,
+            "encodings_id": 2009892596,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2430571448,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/64f68f2923aa894b4f8ba771483e55ac/mp3-128/2430571448?p=0&ts=1587317625&t=f5479b3d31ed944d96c27b592e07cc53ddc6d0e2&token=1587317625_c955cd6b6ddfd638631685c5ffda0b95a902b430"
+            },
+            "video_source_id": null,
+            "duration": 675.84,
+            "track_num": 1
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Fkd me up",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2705927053,
+            "video_caption": null,
+            "title_link": "/track/fkd-me-up",
+            "private": null,
+            "encodings_id": 551336586,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2705927053,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/ac360fda0a2df938b7290f1a1ae0bb99/mp3-128/2705927053?p=0&ts=1587317625&t=1703858f2141d220de9cfc1861ec2fa033cfcf15&token=1587317625_25addf152da2631dad45783a60c0b0b4d8a36764"
+            },
+            "video_source_id": null,
+            "duration": 439.68,
+            "track_num": 2
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2430571448,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/planethinking",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3441480072,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_wishlist_tooltip": false,
+          "show_collect": true
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/planethinking"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "microhouse"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "rominimal"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Use me to hide away EP",
+      "imageUrl": "https://f4.bcbits.com/img/a0399400902_2.jpg",
+      "tracks": [
+        {
+          "name": "Use me to hide away",
+          "url": "https://marcurares.bandcamp.com/track/use-me-to-hide-away",
+          "duration": "11:15"
+        },
+        {
+          "name": "Lonely",
+          "url": "https://marcurares.bandcamp.com/track/lonely",
+          "duration": "13:25"
+        },
+        {
+          "name": "Serar",
+          "url": "https://marcurares.bandcamp.com/track/serar",
+          "duration": "11:28"
+        },
+        {
+          "name": "Bndg",
+          "url": "https://marcurares.bandcamp.com/track/bndg",
+          "duration": "17:16"
+        },
+        {
+          "name": "Neglijeu",
+          "url": "https://marcurares.bandcamp.com/track/neglijeu",
+          "duration": "11:25"
+        },
+        {
+          "name": "Cigarettes and flute",
+          "url": "https://marcurares.bandcamp.com/track/cigarettes-and-flute",
+          "duration": "11:48"
+        },
+        {
+          "name": "Dance shoes 01",
+          "url": "https://marcurares.bandcamp.com/track/dance-shoes-01",
+          "duration": "09:40"
+        },
+        {
+          "name": "I got you",
+          "url": "https://marcurares.bandcamp.com/track/i-got-you",
+          "duration": "06:56"
+        },
+        {
+          "name": "Lucidreamaster",
+          "url": "https://marcurares.bandcamp.com/track/lucidreamaster",
+          "duration": "12:20"
+        },
+        {
+          "name": "Hotel nights",
+          "url": "https://marcurares.bandcamp.com/track/hotel-nights",
+          "duration": "11:00"
+        },
+        {
+          "name": "Don't you feel like you need a good rain?",
+          "url": "https://marcurares.bandcamp.com/track/dont-you-feel-like-you-need-a-good-rain",
+          "duration": "04:14"
+        }
+      ],
+      "raw": {
+        "current": {
+          "type": "album",
+          "minimum_price": 8,
+          "art_id": 399400902,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "30 Jan 2020 00:00:00 GMT",
+          "band_id": 544922295,
+          "featured_track_id": 2758497599,
+          "publish_date": "30 Jan 2020 13:52:06 GMT",
+          "new_date": "30 Jan 2020 12:36:17 GMT",
+          "upc": null,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "private": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 8,
+          "download_pref": 2,
+          "id": 3239681468,
+          "mod_date": "25 Feb 2020 23:39:36 GMT",
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Use me to hide away EP"
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "30 Jan 2020 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 399400902,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d165e9d785c66fa9e99531c22fb5b630/mp3-128/2758497599?p=0&ts=1587317625&t=4d8bcdc613c68df9e6a38b03577ad60fcf98157f&token=1587317625_0018b2563b884a978f56d2b9cd14aa39dca33a38"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 675.84,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2758497599,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 357085120,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2758497599,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/use-me-to-hide-away",
+            "title": "Use me to hide away"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/02ab4d15d6d9c9a0f98aa9a91f1bfba9/mp3-128/3122035261?p=0&ts=1587317625&t=308d0d5a467a480c3a2f7fa00f024d374c6d785f&token=1587317625_6a47ebdbbfb61588b82f4c068d19d3cdb2f77001"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 805.161,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 3122035261,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 2900078284,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3122035261,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/lonely",
+            "title": "Lonely"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/490587baccbc904266ca0771dc7ec54a/mp3-128/2223393147?p=0&ts=1587317625&t=9e7dc0284c927a83cd22f91db5dedcdfbe327ec8&token=1587317625_a17f846eceb35216a31efce3d4960d03b1f1efad"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 688,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2223393147,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 4233603376,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2223393147,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/serar",
+            "title": "Serar"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/4f20b2a5a36ed8088225db519febb291/mp3-128/1724070122?p=0&ts=1587317625&t=575af901250bd9eae0bdcb658414b3554d6c6245&token=1587317625_aa85837ab362928ebb0f858d1320db984134ae69"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 1036.8,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 4,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1724070122,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 608563622,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1724070122,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/bndg",
+            "title": "Bndg"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/257033b57636cc757586d5f1f37da304/mp3-128/3562877961?p=0&ts=1587317625&t=5f3f79f6dc7a25af259fc6ac6bae47bd22b794e9&token=1587317625_8ce10ab1167ba650377f4d9cc102bdee23d22f5c"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 685.714,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 5,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 3562877961,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3191151105,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3562877961,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/neglijeu",
+            "title": "Neglijeu"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/3d01a261c7b58295fc17f8e39f524fbe/mp3-128/2378483912?p=0&ts=1587317625&t=c1e3b07d4eedb005ee111e359607056430380891&token=1587317625_a43e0110d8eb3e7ec58c6895cf2f263d2c877b71"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 708,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 6,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2378483912,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 2860223511,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2378483912,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/cigarettes-and-flute",
+            "title": "Cigarettes and flute"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/a3e1b9d12cca129eeb58cc3255c4a548/mp3-128/3434846418?p=0&ts=1587317625&t=4cedaa5bcd7827319a910c154bcc510905797d68&token=1587317625_e812d8ad12a3b15b831a70e4ecbe405d21606cc8"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 580.645,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 7,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 3434846418,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3347374385,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3434846418,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/dance-shoes-01",
+            "title": "Dance shoes 01"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/4206559b83545c9ae12bf1d49ea845fc/mp3-128/2548579345?p=0&ts=1587317625&t=9e6c24dbfd019eb3eae4fe7c8abbd8fa9361a6ac&token=1587317625_af03bd4e3e4c0da1dc14510f546673dbc65c7e93"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 416.97,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 8,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2548579345,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3667459093,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2548579345,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/i-got-you",
+            "title": "I got you"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/f847a12b9f0db31a5421255368442cf1/mp3-128/159468575?p=0&ts=1587317625&t=3c0af40082db30624d4768e022724ab606093099&token=1587317625_0d11e66ba89533fdc17aaecc1e3ea8b53c21affd"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 740.64,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 9,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 159468575,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3302886371,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 159468575,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/lucidreamaster",
+            "title": "Lucidreamaster"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/03e7c6d33be7efa48634ed6033af73ef/mp3-128/1044664348?p=0&ts=1587317625&t=03935c42b9fb9657a96fdc9bdb09400275e3fb63&token=1587317625_c299a36d05d5cd34fe6e36064c8f03d3c983edab"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 660.48,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 10,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1044664348,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 4057705728,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1044664348,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/hotel-nights",
+            "title": "Hotel nights"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/cd1d67121d004921e86294d4722c6309/mp3-128/1704552753?p=0&ts=1587317625&t=424c38ecbe930dc362b1fcbf194d01d34d08e8ba&token=1587317625_3caf1d55cff5f7615cf39bdbcc91bb84e85583d9"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 254.634,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 11,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1704552753,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1300381006,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1704552753,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/dont-you-feel-like-you-need-a-good-rain",
+            "title": "Don't you feel like you need a good rain?"
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2758497599,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/use-me-to-hide-away-ep",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3239681468,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_wishlist_tooltip": false,
+          "show_collect": true
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/use-me-to-hide-away-ep"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "romanian"
+        },
+        {
+          "name": "rominimal"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Toi et moi (edit from Paradis)",
+      "imageUrl": "https://f4.bcbits.com/img/a0624655205_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "license_type": 1,
+          "lyrics": null,
+          "publish_date": "08 Nov 2019 07:17:21 GMT",
+          "new_date": "08 Nov 2019 07:17:19 GMT",
+          "audit": 0,
+          "title": "Toi et moi (edit from Paradis)",
+          "album_id": null,
+          "set_price": 1,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "08 Nov 2019 07:17:21 GMT",
+          "pending_encodings_id": null,
+          "is_set_price": null,
+          "download_pref": 2,
+          "isrc": null,
+          "encodings_id": 2338361628,
+          "minimum_price_nonzero": null,
+          "private": null,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 3341292035,
+          "minimum_price": 0,
+          "require_email": null,
+          "streaming": 1,
+          "art_id": 624655205,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "type": "track",
+          "release_date": "08 Nov 2019 07:17:21 GMT",
+          "band_id": 544922295,
+          "require_email_0": null,
+          "file_name": null,
+          "track_number": null
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 624655205,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Toi et moi (edit from Paradis)",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 3341292035,
+            "video_caption": null,
+            "title_link": "/track/toi-et-moi-edit-from-paradis",
+            "private": null,
+            "encodings_id": 2338361628,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 3341292035,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d01ec15e4566d754964fb814279e4105/mp3-128/3341292035?p=0&ts=1587317625&t=eafc77092cce32278d6923c39cbddec37425bdb0&token=1587317625_43e41a149b019bf112fd5c28b689a6118bff2394"
+            },
+            "video_source_id": null,
+            "duration": 700.328,
+            "track_num": null
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/toi-et-moi-edit-from-paradis",
+        "defaultPrice": 1,
+        "freeDownloadPage": "https://bandcamp.com/download?id=3341292035&ts=1587231225.370324222&tsig=b29617d722ec5579c13f9221980d8184&type=track",
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 3341292035,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": null,
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/toi-et-moi-edit-from-paradis"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "microhouse"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "minimal techno"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "My teeth are fine, I don't need no dentist​(​edit from Shygirl - Uckers)",
+      "imageUrl": "https://f4.bcbits.com/img/a1473194006_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "encodings_id": 3447958896,
+          "mod_date": "26 Jun 2019 19:46:47 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "isrc": null,
+          "streaming": 1,
+          "preorder_download": null,
+          "about": "mastered by Neo at groove studios (www.facebook.com/Neo-Mastering-468119103945710/)",
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "My teeth are fine, I don't need no dentist(edit from Shygirl - Uckers)",
+          "minimum_price": 1.5,
+          "pending_encodings_id": null,
+          "art_id": 1473194006,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "26 Jun 2019 19:43:17 GMT",
+          "release_date": "26 Jun 2019 00:00:00 GMT",
+          "band_id": 544922295,
+          "id": 1428744790,
+          "license_type": 1,
+          "file_name": null,
+          "track_number": null,
+          "set_price": 1,
+          "is_set_price": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "26 Jun 2019 19:43:14 GMT",
+          "type": "track",
+          "audit": 0,
+          "album_id": null,
+          "minimum_price_nonzero": 1.5
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 1473194006,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 3447958896,
+            "video_caption": null,
+            "title_link": "/track/my-teeth-are-fine-i-dont-need-no-dentist-edit-from-shygirl-uckers",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "My teeth are fine, I don't need no dentist(edit from Shygirl - Uckers)",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": true,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "duration": 519.268,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 1428744790,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/dafb1e75e6ad8e1ed4ef5ddefe65fc1e/mp3-128/1428744790?p=0&ts=1587317625&t=548128ed66db405284cbd7f0d45861ebdec57707&token=1587317625_4165c6daea5847ca2a3003a0f178ba480747fd24"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 1428744790
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/my-teeth-are-fine-i-dont-need-no-dentist-edit-from-shygirl-uckers",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 1428744790,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/my-teeth-are-fine-i-dont-need-no-dentist-edit-from-shygirl-uckers"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "deep"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "microhouse"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Marcu Rares & Abel Soleil - Mojave  (mastered)",
+      "imageUrl": "https://f4.bcbits.com/img/a3995841694_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "encodings_id": 2236333698,
+          "mod_date": "14 May 2019 22:09:05 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "isrc": null,
+          "streaming": 1,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "Marcu Rares & Abel Soleil - Mojave  (mastered)",
+          "minimum_price": 2,
+          "pending_encodings_id": null,
+          "art_id": 3995841694,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "14 May 2019 22:09:05 GMT",
+          "release_date": "14 May 2019 22:09:05 GMT",
+          "band_id": 544922295,
+          "id": 2790847764,
+          "license_type": 1,
+          "file_name": null,
+          "track_number": null,
+          "set_price": 1,
+          "is_set_price": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "14 May 2019 22:09:01 GMT",
+          "type": "track",
+          "audit": 0,
+          "album_id": null,
+          "minimum_price_nonzero": 2
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 3995841694,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 2236333698,
+            "video_caption": null,
+            "title_link": "/track/marcu-rares-abel-soleil-mojave-mastered",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Marcu Rares & Abel Soleil - Mojave  (mastered)",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "duration": 644.145,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 2790847764,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d5387eb7f9dec2d13ed296179c6389f7/mp3-128/2790847764?p=0&ts=1587317625&t=346953dff24f1e7de11d2fed74313b821b4f5298&token=1587317625_efba54dc3f1f4be369be974285a458f9e65c3d23"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 2790847764
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/marcu-rares-abel-soleil-mojave-mastered",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 2790847764,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/marcu-rares-abel-soleil-mojave-mastered"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Humble Moments EP",
+      "imageUrl": "https://f4.bcbits.com/img/a0991642365_2.jpg",
+      "tracks": [
+        {
+          "name": "End of School",
+          "url": "https://marcurares.bandcamp.com/track/end-of-school",
+          "duration": "10:23"
+        },
+        {
+          "name": "Ipohondr",
+          "url": "https://marcurares.bandcamp.com/track/ipohondr",
+          "duration": "10:13"
+        },
+        {
+          "name": "If I jump off the balcony, I wouldn't die, I would fly",
+          "url": "https://marcurares.bandcamp.com/track/if-i-jump-off-the-balcony-i-wouldnt-die-i-would-fly",
+          "duration": "09:42"
+        },
+        {
+          "name": "Coboara Bach",
+          "url": "https://marcurares.bandcamp.com/track/coboara-bach",
+          "duration": "10:02"
+        },
+        {
+          "name": "Once a vendor, always a vendor",
+          "url": "https://marcurares.bandcamp.com/track/once-a-vendor-always-a-vendor",
+          "duration": "07:42"
+        },
+        {
+          "name": "It's about a jacket, relax",
+          "url": "https://marcurares.bandcamp.com/track/its-about-a-jacket-relax",
+          "duration": "13:56"
+        }
+      ],
+      "raw": {
+        "current": {
+          "type": "album",
+          "minimum_price": 8,
+          "art_id": 991642365,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "05 Apr 2019 09:54:30 GMT",
+          "band_id": 544922295,
+          "featured_track_id": 517891231,
+          "publish_date": "05 Apr 2019 09:54:30 GMT",
+          "new_date": "05 Apr 2019 09:44:45 GMT",
+          "upc": null,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "private": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 8,
+          "download_pref": 2,
+          "id": 1486311382,
+          "mod_date": "05 Apr 2019 09:54:30 GMT",
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Humble Moments EP"
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "05 Apr 2019 09:54:30 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 991642365,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/31f709cf93a2e0af7e88b43b4b4118d8/mp3-128/517891231?p=0&ts=1587317626&t=a286bca990123d8491f6dad2a070da9804696005&token=1587317626_f36d825ef9fa578d3eceb8548dc1057f515a700b"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 623.226,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 517891231,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1918499675,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 517891231,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/end-of-school",
+            "title": "End of School"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/b95e0d0a3ffb5b1c6e910fc75271b6d6/mp3-128/2666579550?p=0&ts=1587317626&t=e15fa05e49dbc16711ff045e4067300f9162e925&token=1587317626_9abcc44d5c5cbc0f7a2019dc43ff0ad8fce43bd2"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 613.771,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2666579550,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1649897249,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2666579550,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/ipohondr",
+            "title": "Ipohondr"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/9027b1ca66d5b6d3e3575b1a5240393e/mp3-128/343902264?p=0&ts=1587317626&t=848b8457263035bf2e66cf74af10a9b40db5777d&token=1587317626_bc1f4e00f5554035e5edac31cc698955b186e40c"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 582.295,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 343902264,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 602307519,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 343902264,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/if-i-jump-off-the-balcony-i-wouldnt-die-i-would-fly",
+            "title": "If I jump off the balcony, I wouldn't die, I would fly"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/bbb566e37a611d768f0fab5545c09329/mp3-128/566595744?p=0&ts=1587317626&t=6b41ac93e3a430bd7065430607651e6a60cb3687&token=1587317626_f3b7c46fb4bca687690dceec3b0cbe6b5b9c7f22"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 602.975,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 4,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 566595744,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3602017417,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 566595744,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/coboara-bach",
+            "title": "Coboara Bach"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/aeba04f1d608f98bf20435929d2cfbed/mp3-128/3225531761?p=0&ts=1587317626&t=bd8e3441d0afda11ffd9962e98bd3d32aed040ac&token=1587317626_b0b7d981a7321852af76218aea0bf5ca899622cf"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 462.149,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 5,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 3225531761,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3753653446,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3225531761,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/once-a-vendor-always-a-vendor",
+            "title": "Once a vendor, always a vendor"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/256b638c648ddeacf42e512089d3bd55/mp3-128/1807313913?p=0&ts=1587317626&t=dc4d5ed73ddda16c269a7ce70ff67bc590fb2e26&token=1587317626_319373aa5bd59774f1589094cc42afe1f5148047"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 836.129,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 6,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1807313913,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3543731431,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1807313913,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/its-about-a-jacket-relax",
+            "title": "It's about a jacket, relax"
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 517891231,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/humble-moments-ep",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 1486311382,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_collect": true,
+          "show_wishlist_tooltip": false
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/humble-moments-ep"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "micro"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "minimal techno"
+        },
+        {
+          "name": "vocal"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Being honest",
+      "imageUrl": "https://f4.bcbits.com/img/a0725941468_2.jpg",
+      "tracks": [
+        {
+          "name": "Sugar lips",
+          "url": "https://marcurares.bandcamp.com/track/sugar-lips",
+          "duration": "13:32"
+        },
+        {
+          "name": "mndlss fckdll",
+          "url": "https://marcurares.bandcamp.com/track/mndlss-fckdll",
+          "duration": "09:53"
+        },
+        {
+          "name": "Sahasutra",
+          "url": "https://marcurares.bandcamp.com/track/sahasutra",
+          "duration": "10:19"
+        },
+        {
+          "name": "Pantomime",
+          "url": "https://marcurares.bandcamp.com/track/pantomime",
+          "duration": "10:44"
+        },
+        {
+          "name": "Cafune",
+          "url": "https://marcurares.bandcamp.com/track/cafune",
+          "duration": "10:13"
+        },
+        {
+          "name": "Miss positivity",
+          "url": "https://marcurares.bandcamp.com/track/miss-positivity",
+          "duration": "12:48"
+        }
+      ],
+      "raw": {
+        "current": {
+          "type": "album",
+          "minimum_price": 8,
+          "art_id": 725941468,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "29 Nov 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "featured_track_id": 2581026650,
+          "publish_date": "29 Nov 2018 21:56:13 GMT",
+          "new_date": "29 Nov 2018 21:34:12 GMT",
+          "upc": null,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "private": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 8,
+          "download_pref": 2,
+          "id": 3507169034,
+          "mod_date": "16 Jul 2019 09:26:03 GMT",
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Being honest"
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "29 Nov 2018 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 725941468,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/44f1af38cd2b4202a95bacca623ed83c/mp3-128/2581026650?p=0&ts=1587317625&t=8dece2b45cc5ce279ca1e54ced18ef29740e1d46&token=1587317625_223fc1b357c8f98a0f2d93a7bca22bc0d56ffba8"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 812,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2581026650,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1935592168,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2581026650,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/sugar-lips",
+            "title": "Sugar lips"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/369482bcc11ac0af0716fcd8c86c8d9e/mp3-128/1671176997?p=0&ts=1587317625&t=e52d89aef2b8058239770a58e7ad4ef6e2743461&token=1587317625_407d1fb27e03518054e3c16af126c0d881d04ec4"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 593.171,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1671176997,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1449758545,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1671176997,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/mndlss-fckdll",
+            "title": "mndlss fckdll"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/2da3ec052dd1479c994ba9a32999f2e5/mp3-128/2578876872?p=0&ts=1587317625&t=612caa18449f3ccf845d07853ae136c3a3d71e25&token=1587317625_f79ae4f29fb21845db3e121568ee2951faa84de7"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 619.355,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2578876872,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1691356512,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2578876872,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/sahasutra",
+            "title": "Sahasutra"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/6cdbd0c72975e79e38b3843b32a24cdb/mp3-128/3357771060?p=0&ts=1587317625&t=e13476796a8fcc0016e96aad1d0e9568492754b8&token=1587317625_64f644f48092bd89bc527d569c565415b49d435b"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 644,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 4,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 3357771060,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 705780718,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3357771060,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/pantomime",
+            "title": "Pantomime"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/c2b3de7e6aac5a84e8ba940f484206b2/mp3-128/677896200?p=0&ts=1587317625&t=18ada880a86d11c77b3dc9f7f6b15824508bac8e&token=1587317625_c581d5c1facab23ab6a0f3f7ee29741f668c1d75"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 613.785,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 5,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 677896200,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 311552123,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 677896200,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/cafune",
+            "title": "Cafune"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/54c71460c54a6d7b401579f7818b1a35/mp3-128/1441727879?p=0&ts=1587317625&t=08198a0735d403221bc3226f576f2cf705aec0ab&token=1587317625_00600f00c343e420ee311bcaf4996f2ca804df87"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 768.023,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 6,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1441727879,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3137258803,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1441727879,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/miss-positivity",
+            "title": "Miss positivity"
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2581026650,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/being-honest",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3507169034,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_collect": true,
+          "show_wishlist_tooltip": false
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/being-honest"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "romanian"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "portugal"
+        },
+        {
+          "name": "rominimal"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Contra El Tiempo (Rework)",
+      "imageUrl": "https://f4.bcbits.com/img/a2933362144_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "encodings_id": 2330580124,
+          "mod_date": "25 Sep 2018 13:20:00 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "isrc": null,
+          "streaming": 1,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "Contra El Tiempo (Rework)",
+          "minimum_price": 0.6,
+          "pending_encodings_id": null,
+          "art_id": 2933362144,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "25 Sep 2018 13:20:00 GMT",
+          "release_date": "25 Sep 2018 13:20:00 GMT",
+          "band_id": 544922295,
+          "id": 2541451672,
+          "license_type": 1,
+          "file_name": null,
+          "track_number": null,
+          "set_price": 1,
+          "is_set_price": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "25 Sep 2018 13:19:57 GMT",
+          "type": "track",
+          "audit": 0,
+          "album_id": null,
+          "minimum_price_nonzero": 0.6
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 2933362144,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 2330580124,
+            "video_caption": null,
+            "title_link": "/track/contra-el-tiempo-rework-2",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Contra El Tiempo (Rework)",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "duration": 686.829,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 2541451672,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/a8acb553cad5c61214a10ed07907858a/mp3-128/2541451672?p=0&ts=1587317626&t=9016b66e0a27e34aa1ea88dac0730de85b33de06&token=1587317626_9a95557140faafebfb7bbfc5baa59dc2b063fd1f"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 2541451672
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/contra-el-tiempo-rework-2",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 2541451672,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/contra-el-tiempo-rework-2"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Corpul de muzica, partea I",
+      "imageUrl": "https://f4.bcbits.com/img/a1308468445_2.jpg",
+      "tracks": [
+        {
+          "name": "El cuerpo de la musica",
+          "url": "https://marcurares.bandcamp.com/track/el-cuerpo-de-la-musica",
+          "duration": "20:00"
+        },
+        {
+          "name": "Călătorul",
+          "url": "https://marcurares.bandcamp.com/track/c-l-torul",
+          "duration": "13:44"
+        },
+        {
+          "name": "We're partners until one of us dies",
+          "url": "https://marcurares.bandcamp.com/track/were-partners-until-one-of-us-dies",
+          "duration": "01:44"
+        }
+      ],
+      "raw": {
+        "current": {
+          "publish_date": "30 Jul 2018 18:06:34 GMT",
+          "new_date": "30 Jul 2018 17:54:07 GMT",
+          "audit": 0,
+          "upc": null,
+          "title": "Corpul de muzica, partea I",
+          "set_price": 7,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "30 Jul 2018 18:06:34 GMT",
+          "is_set_price": null,
+          "download_pref": 2,
+          "purchase_title": null,
+          "minimum_price_nonzero": 3,
+          "private": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 3063103236,
+          "minimum_price": 3,
+          "require_email": null,
+          "featured_track_id": 2532922772,
+          "art_id": 1308468445,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "type": "album",
+          "release_date": "30 Jul 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "require_email_0": null
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "30 Jul 2018 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 1308468445,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "El cuerpo de la musica",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2532922772,
+            "video_caption": null,
+            "title_link": "/track/el-cuerpo-de-la-musica",
+            "private": null,
+            "encodings_id": 961398365,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2532922772,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/881e942cb49f512f03703c6ae18de470/mp3-128/2532922772?p=0&ts=1587317625&t=c7b9000543a44519b63e9dada83d685bbf12ca8d&token=1587317625_19cddd377a661496feb2d6316e9fc45c89b0ba29"
+            },
+            "video_source_id": null,
+            "duration": 1200,
+            "track_num": 1
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Călătorul",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 3992223946,
+            "video_caption": null,
+            "title_link": "/track/c-l-torul",
+            "private": null,
+            "encodings_id": 3984355650,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 3992223946,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/46a11ce2570c5aa7e9785ba719538f49/mp3-128/3992223946?p=0&ts=1587317625&t=9ca50fde06ab37ad17efc92b5a1d288570421e7a&token=1587317625_5d15bb425240726d2ab8f00f78dcfa7c53b70a6b"
+            },
+            "video_source_id": null,
+            "duration": 824,
+            "track_num": 2
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "We're partners until one of us dies",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 968430973,
+            "video_caption": null,
+            "title_link": "/track/were-partners-until-one-of-us-dies",
+            "private": null,
+            "encodings_id": 2253050372,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 968430973,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/5073e1e82f7ebd1f1402b65028c408e8/mp3-128/968430973?p=0&ts=1587317625&t=e728a72ad46c2e9a4791d30b78c29f0737542b23&token=1587317625_7a6300e8a4430b811385ce559ca0fc1e6f3200f6"
+            },
+            "video_source_id": null,
+            "duration": 104,
+            "track_num": 3
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2532922772,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/corpul-de-muzica-partea-i",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3063103236,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_collect": true,
+          "show_wishlist_tooltip": false
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/corpul-de-muzica-partea-i"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "marcu rares"
+        },
+        {
+          "name": "microhouse"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "minimal techno"
+        },
+        {
+          "name": "tech"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Flamingo around",
+      "imageUrl": "https://f4.bcbits.com/img/a0217740532_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "license_type": 1,
+          "lyrics": null,
+          "publish_date": "29 Jun 2018 15:47:27 GMT",
+          "new_date": "29 Jun 2018 15:47:22 GMT",
+          "audit": 0,
+          "title": "Flamingo around",
+          "album_id": null,
+          "set_price": 1,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "29 Jun 2018 15:47:27 GMT",
+          "pending_encodings_id": null,
+          "is_set_price": null,
+          "download_pref": 2,
+          "isrc": null,
+          "encodings_id": 2953151118,
+          "minimum_price_nonzero": 2.7,
+          "private": null,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 3833077580,
+          "minimum_price": 2.7,
+          "require_email": null,
+          "streaming": 1,
+          "art_id": 217740532,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "type": "track",
+          "release_date": "29 Jun 2018 15:47:27 GMT",
+          "band_id": 544922295,
+          "require_email_0": null,
+          "file_name": null,
+          "track_number": null
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 217740532,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Flamingo around",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 3833077580,
+            "video_caption": null,
+            "title_link": "/track/flamingo-around",
+            "private": null,
+            "encodings_id": 2953151118,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 3833077580,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/8a26f1a6615df02eeb70ae8511ff9cba/mp3-128/3833077580?p=0&ts=1587317626&t=163eabb7a53c84c9c1d47f5ab217d3bcbfdc587a&token=1587317626_31358e4801ea007c534adc1575e0c88c5cadcb69"
+            },
+            "video_source_id": null,
+            "duration": 749.268,
+            "track_num": null
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/flamingo-around",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 3833077580,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/flamingo-around"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Bibliotec a ra",
+      "imageUrl": "https://f4.bcbits.com/img/a1572472890_2.jpg",
+      "tracks": [
+        {
+          "name": "Je ne parle pas français",
+          "url": "https://marcurares.bandcamp.com/track/je-ne-parle-pas-fran-ais",
+          "duration": "13:53"
+        },
+        {
+          "name": "Romanica",
+          "url": "https://marcurares.bandcamp.com/track/romanica",
+          "duration": "14:42"
+        },
+        {
+          "name": "The saxophones - Picture (Marcu Rares edit)",
+          "url": "https://marcurares.bandcamp.com/track/the-saxophones-picture-marcu-rares-edit",
+          "duration": "09:06"
+        }
+      ],
+      "raw": {
+        "current": {
+          "mod_date": "19 Jun 2018 10:17:46 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "about": null,
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "Bibliotec a ra",
+          "minimum_price": 4,
+          "featured_track_id": 395223353,
+          "art_id": 1572472890,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "19 Jun 2018 10:17:46 GMT",
+          "release_date": "19 Jun 2018 10:17:46 GMT",
+          "band_id": 544922295,
+          "id": 3257808898,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "19 Jun 2018 10:00:25 GMT",
+          "type": "album",
+          "upc": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 4
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "19 Jun 2018 10:17:46 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 1572472890,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 4119654403,
+            "video_caption": null,
+            "title_link": "/track/je-ne-parle-pas-fran-ais",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Je ne parle pas français",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "duration": 833.058,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 395223353,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d37d68336b4adba16838af98b9750afa/mp3-128/395223353?p=0&ts=1587317625&t=a2768ed19ee2318402b72fca66c1fe0d4af8d5cb&token=1587317625_8adebc5bc18b599789f974ed826af18b83be0624"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 395223353
+          },
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 1338567055,
+            "video_caption": null,
+            "title_link": "/track/romanica",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Romanica",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "duration": 882.581,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 946247338,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/84bdc1daeb78a26f59c301b77f709561/mp3-128/946247338?p=0&ts=1587317625&t=e378e69b8f3539d4620841e8e7c8228fa78d281d&token=1587317625_4ed8220a8e96b85a734a39d3a748decabfd573eb"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 946247338
+          },
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 64989936,
+            "video_caption": null,
+            "title_link": "/track/the-saxophones-picture-marcu-rares-edit",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "The saxophones - Picture (Marcu Rares edit)",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "duration": 546.341,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 4259955563,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/67a8d4fb68d1a91c5b63d6208db44650/mp3-128/4259955563?p=0&ts=1587317625&t=d04dd3b42102785439cbcd8c92c825d2a6d3b366&token=1587317625_e7557c8fe4515a7c48c0286f23e747712132aeba"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 4259955563
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 395223353,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/bibliotec-a-ra",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3257808898,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_wishlist_tooltip": false,
+          "show_collect": true
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/bibliotec-a-ra"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "bass"
+        },
+        {
+          "name": "claire wineland"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Claire Wineland",
+      "imageUrl": "https://f4.bcbits.com/img/a3608113595_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "encodings_id": 257470452,
+          "mod_date": "05 Jun 2018 08:33:47 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "isrc": null,
+          "streaming": 1,
+          "preorder_download": null,
+          "about": "I wrote this a really really really long time ago",
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "Claire Wineland",
+          "minimum_price": 1,
+          "pending_encodings_id": null,
+          "art_id": 3608113595,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "04 Jun 2018 23:01:47 GMT",
+          "release_date": "04 Jun 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "id": 919088873,
+          "license_type": 1,
+          "file_name": null,
+          "track_number": null,
+          "set_price": 1,
+          "is_set_price": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "04 Jun 2018 23:01:44 GMT",
+          "type": "track",
+          "audit": 0,
+          "album_id": null,
+          "minimum_price_nonzero": 1
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 3608113595,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 257470452,
+            "video_caption": null,
+            "title_link": "/track/claire-wineland",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Claire Wineland",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": true,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "duration": 640.63,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 919088873,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/689ea11271c82343b43eee56ef858872/mp3-128/919088873?p=0&ts=1587317625&t=0b42a6a4ac74cda475b5a08ebe530ce3a6207db9&token=1587317625_8ab6b9ae4a4d7a8f67b092bfd8192894f13d30fb"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 919088873
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/claire-wineland",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 919088873,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/claire-wineland"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "disclosure"
+        },
+        {
+          "name": "female vocals"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "vocal"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Disclosure - What's in your head (Marcu Rares edit)",
+      "imageUrl": "https://f4.bcbits.com/img/a1008434008_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "type": "track",
+          "minimum_price": 1.4,
+          "preorder_download": null,
+          "art_id": 1008434008,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "06 May 2018 15:55:23 GMT",
+          "band_id": 544922295,
+          "pending_encodings_id": null,
+          "file_name": null,
+          "track_number": null,
+          "publish_date": "06 May 2018 15:55:23 GMT",
+          "new_date": "06 May 2018 15:55:21 GMT",
+          "license_type": 1,
+          "set_price": 1,
+          "is_set_price": null,
+          "album_id": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "encodings_id": 4104856804,
+          "private": null,
+          "audit": 0,
+          "minimum_price_nonzero": 1.4,
+          "download_pref": 2,
+          "id": 684268773,
+          "isrc": null,
+          "mod_date": "06 May 2018 15:55:23 GMT",
+          "streaming": 1,
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Disclosure - What's in your head (Marcu Rares edit)"
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 1008434008,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/55fd9f01da7c159729514cd59a8fe37d/mp3-128/684268773?p=0&ts=1587317625&t=d8f852276b11078c6500021b5d10ba6acb240010&token=1587317625_c88278ed4c4eb65a4e09fb5834b81bab9de1ac6a"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 599.04,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 684268773,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 4104856804,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 684268773,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/disclosure-whats-in-your-head-marcu-rares-edit",
+            "title": "Disclosure - What's in your head (Marcu Rares edit)"
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/disclosure-whats-in-your-head-marcu-rares-edit",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 684268773,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/disclosure-whats-in-your-head-marcu-rares-edit"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "trippy."
+        },
+        {
+          "name": "female vocals"
+        },
+        {
+          "name": "free"
+        },
+        {
+          "name": "minimal"
+        },
+        {
+          "name": "polish"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "unreleased"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Tamta Kobieta",
+      "imageUrl": "https://f4.bcbits.com/img/a1975215689_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "encodings_id": 1016896758,
+          "mod_date": "18 May 2018 16:30:42 GMT",
+          "require_email": null,
+          "download_pref": 2,
+          "isrc": null,
+          "streaming": 1,
+          "preorder_download": null,
+          "about": null,
+          "artist": null,
+          "require_email_0": null,
+          "killed": null,
+          "title": "Tamta Kobieta",
+          "minimum_price": 0,
+          "pending_encodings_id": null,
+          "art_id": 1975215689,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "private": null,
+          "publish_date": "14 Apr 2018 01:01:36 GMT",
+          "release_date": "14 Apr 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "id": 863235162,
+          "license_type": 1,
+          "file_name": null,
+          "track_number": null,
+          "set_price": 1,
+          "is_set_price": null,
+          "lyrics": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "new_date": "14 Apr 2018 01:01:32 GMT",
+          "type": "track",
+          "audit": 0,
+          "album_id": null,
+          "minimum_price_nonzero": null
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 1975215689,
+        "trackinfo": [
+          {
+            "play_count": null,
+            "free_album_download": false,
+            "encodings_id": 1016896758,
+            "video_caption": null,
+            "title_link": "/track/tamta-kobieta",
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "streaming": 1,
+            "has_lyrics": false,
+            "title": "Tamta Kobieta",
+            "video_source_type": null,
+            "alt_link": null,
+            "has_info": false,
+            "private": null,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "duration": 1486.45,
+            "is_downloadable": true,
+            "license_type": 1,
+            "id": 863235162,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d6aef44501c669819bad0c7277a9dc2f/mp3-128/863235162?p=0&ts=1587317625&t=28227a7e6bbf92607b0aaca9bb2540c919b128fa&token=1587317625_91b48ea7d56f475a109e314f6d58fe945d63a7bc"
+            },
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "track_id": 863235162
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/tamta-kobieta",
+        "defaultPrice": 1,
+        "freeDownloadPage": "https://bandcamp.com/download?id=863235162&ts=1587231225.4210253831&tsig=4a4365e2989ee140ea4b84f523537b63&type=track",
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 863235162,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": null,
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/tamta-kobieta"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "tech house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "bass"
+        },
+        {
+          "name": "female vocals"
+        },
+        {
+          "name": "marcu rares"
+        },
+        {
+          "name": "piano"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "trippy"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "All the nights I haven't slept",
+      "imageUrl": "https://f4.bcbits.com/img/a1088200914_2.jpg",
+      "tracks": [
+        {
+          "name": "Beatcoin",
+          "url": "https://marcurares.bandcamp.com/track/beatcoin",
+          "duration": "15:12"
+        },
+        {
+          "name": "Birth",
+          "url": "https://marcurares.bandcamp.com/track/birth",
+          "duration": "09:06"
+        },
+        {
+          "name": "Nicki Minaj - No frauds (Marcu Rares edit)",
+          "url": "https://marcurares.bandcamp.com/track/nicki-minaj-no-frauds-marcu-rares-edit",
+          "duration": "09:04"
+        },
+        {
+          "name": "That unreleased (edit from Yael Naim - Toxic)",
+          "url": "https://marcurares.bandcamp.com/track/that-unreleased-edit-from-yael-naim-toxic",
+          "duration": "12:07"
+        },
+        {
+          "name": "After (edit from Schiller - I feel you)",
+          "url": "https://marcurares.bandcamp.com/track/after-edit-from-schiller-i-feel-you",
+          "duration": "10:45"
+        },
+        {
+          "name": "Drgdlr",
+          "url": "https://marcurares.bandcamp.com/track/drgdlr-2",
+          "duration": "14:08"
+        }
+      ],
+      "raw": {
+        "current": {
+          "publish_date": "23 Mar 2018 21:29:16 GMT",
+          "new_date": "23 Mar 2018 20:46:53 GMT",
+          "audit": 0,
+          "upc": null,
+          "title": "All the nights I haven't slept",
+          "set_price": 7,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "mod_date": "01 Oct 2018 12:25:29 GMT",
+          "is_set_price": null,
+          "download_pref": 2,
+          "purchase_title": null,
+          "minimum_price_nonzero": 8.5,
+          "private": null,
+          "about": null,
+          "artist": null,
+          "killed": null,
+          "id": 1298134940,
+          "minimum_price": 8.5,
+          "require_email": null,
+          "featured_track_id": 1193992087,
+          "art_id": 1088200914,
+          "selling_band_id": 544922295,
+          "credits": "https://www.instagram.com/astrid.corina/ for any graphics, artworks, pictures, architecture projects...mostly anything art related business inquiries.",
+          "type": "album",
+          "release_date": "23 Mar 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "require_email_0": null
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "23 Mar 2018 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 1088200914,
+        "trackinfo": [
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Beatcoin",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 1193992087,
+            "video_caption": null,
+            "title_link": "/track/beatcoin",
+            "private": null,
+            "encodings_id": 2382747673,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 1193992087,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/bf6d10529bf66955fe464c1842ed0f7c/mp3-128/1193992087?p=0&ts=1587317626&t=aa0edcad02b9d78be7b047149213de052b7a01b5&token=1587317626_6cc12324e0db7781b579ad18415b7498578f699d"
+            },
+            "video_source_id": null,
+            "duration": 912.787,
+            "track_num": 1
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Birth",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 3894845648,
+            "video_caption": null,
+            "title_link": "/track/birth",
+            "private": null,
+            "encodings_id": 1993732820,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 3894845648,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/3716f8f4d01f4a6014e4d7f116412cb1/mp3-128/3894845648?p=0&ts=1587317626&t=d71a7aa78281964cbd8397975b239ec91a2b3f00&token=1587317626_358459683a1dce0102b1096595343117da1b59eb"
+            },
+            "video_source_id": null,
+            "duration": 546.341,
+            "track_num": 2
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Nicki Minaj - No frauds (Marcu Rares edit)",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2983986174,
+            "video_caption": null,
+            "title_link": "/track/nicki-minaj-no-frauds-marcu-rares-edit",
+            "private": null,
+            "encodings_id": 1217413634,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2983986174,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/57764a7bde26a3f9df067f5651099bd9/mp3-128/2983986174?p=0&ts=1587317626&t=236e9af33780a8d7d0876c88bb59a0dfeac3459a&token=1587317626_fd7cad597cfdb773abe1b1d16503f6bdd4f61752"
+            },
+            "video_source_id": null,
+            "duration": 544.762,
+            "track_num": 3
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "That unreleased (edit from Yael Naim - Toxic)",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 2896763887,
+            "video_caption": null,
+            "title_link": "/track/that-unreleased-edit-from-yael-naim-toxic",
+            "private": null,
+            "encodings_id": 441573201,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 2896763887,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d964cc2bca892415921e3047afd4a634/mp3-128/2896763887?p=0&ts=1587317626&t=d5ea535b9ec2085eb26e8549c352cf377816c9ac&token=1587317626_f48f2dfa0a8816a10c3ca4ac3430a41d6d8d280d"
+            },
+            "video_source_id": null,
+            "duration": 727.619,
+            "track_num": 5
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "After (edit from Schiller - I feel you)",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 1871896424,
+            "video_caption": null,
+            "title_link": "/track/after-edit-from-schiller-i-feel-you",
+            "private": null,
+            "encodings_id": 2116101589,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 1871896424,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/6e93cbf04bb47806b3a48f576cf1187b/mp3-128/1871896424?p=0&ts=1587317626&t=a35df0b68c5c155af10244dd82d36563f311f2d4&token=1587317626_f2ddaf37266de711b35037698c49cfa636426a36"
+            },
+            "video_source_id": null,
+            "duration": 645.246,
+            "track_num": 6
+          },
+          {
+            "encoding_error": null,
+            "lyrics": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "album_preorder": false,
+            "title": "Drgdlr",
+            "encoding_pending": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "track_license_id": null,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "video_id": null,
+            "free_album_download": false,
+            "track_id": 705514404,
+            "video_caption": null,
+            "title_link": "/track/drgdlr-2",
+            "private": null,
+            "encodings_id": 787509831,
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "video_featured": null,
+            "has_lyrics": false,
+            "id": 705514404,
+            "video_source_type": null,
+            "streaming": 1,
+            "alt_link": null,
+            "has_info": false,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/06ddb7ee8700787610aa752afd3eb10c/mp3-128/705514404?p=0&ts=1587317626&t=765779d3ad3a09cdcd51d00e705401381f19bc56&token=1587317626_4b8dcf4ac538395e924668f135da43cd397a490b"
+            },
+            "video_source_id": null,
+            "duration": 848.504,
+            "track_num": 7
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 1193992087,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/all-the-nights-i-havent-slept-2",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 1298134940,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_wishlist_tooltip": false,
+          "show_collect": true
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/all-the-nights-i-havent-slept-2"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "tech house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "bass"
+        },
+        {
+          "name": "deep"
+        },
+        {
+          "name": "deep techno"
+        },
+        {
+          "name": "female vocals"
+        },
+        {
+          "name": "guitars"
+        },
+        {
+          "name": "techno"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Aacinom",
+      "imageUrl": "https://f4.bcbits.com/img/a0629667791_2.jpg",
+      "tracks": [],
+      "raw": {
+        "current": {
+          "type": "track",
+          "minimum_price": 2.5,
+          "preorder_download": null,
+          "art_id": 629667791,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "14 Jan 2018 00:00:00 GMT",
+          "band_id": 544922295,
+          "pending_encodings_id": null,
+          "file_name": null,
+          "track_number": null,
+          "publish_date": "14 Jan 2018 23:05:48 GMT",
+          "new_date": "14 Jan 2018 22:55:35 GMT",
+          "license_type": 1,
+          "set_price": 1,
+          "is_set_price": null,
+          "album_id": null,
+          "lyrics": "i-am zis... mmm...poate.\r\nPoate voi veni\r\ndar ma voi lungi inainte\r\nma voi lungi in toate dimensiunile\r\nma voi dezbraca de piele\r\nma voi sui pe umerii mei si apoi ma voi prinde de-o mana\r\nsi ma voi trage sus\r\nNu stiu cat de sus\r\npana cand totul pare foarte mic\r\nsi neimportant\r\nsi cand voi cobora\r\nvoi fi din nou mare\r\nsi poate voi veni",
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "encodings_id": 3382369760,
+          "private": null,
+          "audit": 0,
+          "minimum_price_nonzero": 2.5,
+          "download_pref": 2,
+          "id": 3305941324,
+          "isrc": null,
+          "mod_date": "14 Jan 2018 23:05:47 GMT",
+          "streaming": 1,
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Aacinom"
+        },
+        "hasAudio": true,
+        "album_is_preorder": null,
+        "album_release_date": null,
+        "art_id": 629667791,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 336,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/9597346025a3087f42d77bfbe5213c8c/mp3-128/3305941324?p=0&ts=1587317625&t=aaf4bdb8fe18e80bd2ffdb6e10441fe7807b5d09&token=1587317625_885ae0a5984f9f4f10b337e2e2291f5b9848fe83"
+            },
+            "video_featured": null,
+            "has_lyrics": true,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 853.333,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": null,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": "i-am zis... mmm...poate.\r\nPoate voi veni\r\ndar ma voi lungi inainte\r\nma voi lungi in toate dimensiunile\r\nma voi dezbraca de piele\r\nma voi sui pe umerii mei si apoi ma voi prinde de-o mana\r\nsi ma voi trage sus\r\nNu stiu cat de sus\r\npana cand totul pare foarte mic\r\nsi neimportant\r\nsi cand voi cobora\r\nvoi fi din nou mare\r\nsi poate voi veni",
+            "album_preorder": false,
+            "track_id": 3305941324,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3382369760,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 3305941324,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/aacinom",
+            "title": "Aacinom"
+          }
+        ],
+        "playing_from": "track page",
+        "packages": null,
+        "album_url": null,
+        "url": "http://marcurares.bandcamp.com/track/aacinom",
+        "defaultPrice": 1,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "track",
+        "id": 3305941324,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null
+      },
+      "url": "https://marcurares.bandcamp.com/track/aacinom"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Lunatique",
+      "imageUrl": "https://f4.bcbits.com/img/a3862265570_2.jpg",
+      "tracks": [
+        {
+          "name": "Lunatique",
+          "url": "https://marcurares.bandcamp.com/track/lunatique",
+          "duration": "10:16"
+        },
+        {
+          "name": "Honey",
+          "url": "https://marcurares.bandcamp.com/track/honey",
+          "duration": "11:15"
+        },
+        {
+          "name": "Billie Eilish - Six Feet Under (Marcu Rares Edit)",
+          "url": "https://marcurares.bandcamp.com/track/billie-eilish-six-feet-under-marcu-rares-edit",
+          "duration": "08:27"
+        }
+      ],
+      "raw": {
+        "current": {
+          "type": "album",
+          "minimum_price": 7,
+          "art_id": 3862265570,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "29 Nov 2017 00:00:00 GMT",
+          "band_id": 544922295,
+          "featured_track_id": 2374232958,
+          "publish_date": "29 Nov 2017 19:34:56 GMT",
+          "new_date": "29 Nov 2017 19:04:25 GMT",
+          "upc": null,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "private": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 7,
+          "download_pref": 2,
+          "id": 2215824518,
+          "mod_date": "30 Sep 2019 07:50:18 GMT",
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Lunatique"
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "29 Nov 2017 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 3862265570,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/d07d7fe3d4cc5aacf132d7ebd7480b42/mp3-128/2374232958?p=0&ts=1587317625&t=03a581065415db66444c1289df01d8d42a384d34&token=1587317625_0b93d6babe2425c38bf5bf426b66119461b92a19"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 616.875,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2374232958,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 2646522359,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2374232958,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/lunatique",
+            "title": "Lunatique"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/dc874a3e39c10509caebf9e592df99f5/mp3-128/1060058403?p=0&ts=1587317625&t=8db5d480a5151ac23b699051b246261d81db3f4a&token=1587317625_8bf29e8716b30c7a98f702e5fd889589d0abc54c"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 675.122,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 1060058403,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3889337532,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 1060058403,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/honey",
+            "title": "Honey"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/8ba9b67264aa0fdace21f6162234671a/mp3-128/88548210?p=0&ts=1587317625&t=fc5ec903f3cc748a5db2e1a6df5d4e17162a60b6&token=1587317625_942f4a365aae061a05979747d17bfc066dd9424e"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 507.84,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 88548210,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 787310894,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 88548210,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/billie-eilish-six-feet-under-marcu-rares-edit",
+            "title": "Billie Eilish - Six Feet Under (Marcu Rares Edit)"
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2374232958,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/lunatique",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 2215824518,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limit": 3,
+          "streaming_limits_enabled": false
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_collect": true,
+          "show_wishlist_tooltip": false
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/lunatique"
+    },
+    {
+      "tags": [
+        {
+          "name": ""
+        },
+        {
+          "name": ""
+        },
+        {
+          "name": "deep house"
+        },
+        {
+          "name": "deep tech"
+        },
+        {
+          "name": "electronic"
+        },
+        {
+          "name": "experimental"
+        },
+        {
+          "name": "house"
+        },
+        {
+          "name": "techno."
+        },
+        {
+          "name": "piano"
+        },
+        {
+          "name": "Romania"
+        }
+      ],
+      "artist": "Marcu Rares",
+      "title": "Open White",
+      "imageUrl": "https://f4.bcbits.com/img/a2002937028_2.jpg",
+      "tracks": [
+        {
+          "name": "Contra el Tiempo",
+          "url": "https://marcurares.bandcamp.com/track/contra-el-tiempo",
+          "duration": "10:00"
+        },
+        {
+          "name": "Minimalism",
+          "url": "https://marcurares.bandcamp.com/track/minimalism",
+          "duration": "08:16"
+        },
+        {
+          "name": "Open White",
+          "url": "https://marcurares.bandcamp.com/track/open-white",
+          "duration": "09:04"
+        }
+      ],
+      "raw": {
+        "current": {
+          "type": "album",
+          "minimum_price": 5,
+          "art_id": 2002937028,
+          "selling_band_id": 544922295,
+          "credits": null,
+          "require_email_0": null,
+          "killed": null,
+          "release_date": "24 Aug 2017 00:00:00 GMT",
+          "band_id": 544922295,
+          "featured_track_id": 2322297934,
+          "publish_date": "24 Aug 2017 23:34:36 GMT",
+          "new_date": "24 Aug 2017 23:10:05 GMT",
+          "upc": null,
+          "set_price": 7,
+          "is_set_price": null,
+          "purchase_url": null,
+          "download_desc_id": null,
+          "new_desc_format": 1,
+          "auto_repriced": null,
+          "private": null,
+          "audit": 0,
+          "purchase_title": null,
+          "minimum_price_nonzero": 5,
+          "download_pref": 2,
+          "id": 3320649685,
+          "mod_date": "14 Jun 2018 19:48:45 GMT",
+          "about": null,
+          "artist": null,
+          "require_email": null,
+          "title": "Open White"
+        },
+        "is_preorder": null,
+        "album_is_preorder": null,
+        "album_release_date": "24 Aug 2017 00:00:00 GMT",
+        "preorder_count": null,
+        "hasAudio": true,
+        "art_id": 2002937028,
+        "trackinfo": [
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/2c43576775fc55c1d580deec3bf42c34/mp3-128/2322297934?p=0&ts=1587317626&t=35e76544b53f4da25c06a00ff68c56225f28685a&token=1587317626_fccd12c61972b9b3c61b3e4bc6462d6fc309981c"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 600,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 1,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2322297934,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 2038519851,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2322297934,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/contra-el-tiempo",
+            "title": "Contra el Tiempo"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 260,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/6ea7025ac5aa7976240d34d9f559645d/mp3-128/556259207?p=0&ts=1587317626&t=08b055a1cf7421b4b5eb2c260f38fbf9775952f2&token=1587317626_48e85d0971ca41e901201ecf249b2e5420c96500"
+            },
+            "video_featured": null,
+            "has_lyrics": true,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 496,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 2,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 556259207,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 3192759683,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 556259207,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/minimalism",
+            "title": "Minimalism"
+          },
+          {
+            "is_capped": null,
+            "sizeof_lyrics": 0,
+            "file": {
+              "mp3-128": "https://t4.bcbits.com/stream/aca969f03f1f4c5265629c5b659258fb/mp3-128/2281035445?p=0&ts=1587317626&t=d41333c0c1c366ae50fff2eae02dfa8430bfaba9&token=1587317626_1a44966dd92ccb8d02faa83f5c0eef25d1d94105"
+            },
+            "video_featured": null,
+            "has_lyrics": false,
+            "video_source_type": null,
+            "alt_link": null,
+            "duration": 544.252,
+            "has_info": false,
+            "track_license_id": null,
+            "video_source_id": null,
+            "track_num": 3,
+            "encoding_error": null,
+            "is_downloadable": true,
+            "license_type": 1,
+            "video_mobile_url": null,
+            "lyrics": null,
+            "album_preorder": false,
+            "track_id": 2281035445,
+            "encoding_pending": null,
+            "video_id": null,
+            "is_draft": false,
+            "has_free_download": null,
+            "private": null,
+            "encodings_id": 1377694292,
+            "video_poster_url": null,
+            "unreleased_track": false,
+            "play_count": null,
+            "free_album_download": false,
+            "id": 2281035445,
+            "video_caption": null,
+            "streaming": 1,
+            "title_link": "/track/open-white",
+            "title": "Open White"
+          }
+        ],
+        "playing_from": "album page",
+        "featured_track_id": 2322297934,
+        "initial_track_num": null,
+        "packages": null,
+        "url": "http://marcurares.bandcamp.com/album/open-white",
+        "defaultPrice": 7,
+        "freeDownloadPage": null,
+        "FREE": 1,
+        "PAID": 2,
+        "artist": "Marcu Rares",
+        "item_type": "album",
+        "id": 3320649685,
+        "last_subscription_item": null,
+        "has_discounts": null,
+        "is_bonus": null,
+        "play_cap_data": {
+          "streaming_limits_enabled": false,
+          "streaming_limit": 3
+        },
+        "client_id_sig": null,
+        "is_purchased": null,
+        "items_purchased": null,
+        "is_private_stream": null,
+        "is_band_member": null,
+        "licensed_version_ids": null,
+        "package_associated_license_id": null,
+        "tralbum_collect_info": {
+          "show_wishlist_tooltip": false,
+          "show_collect": true
+        }
+      },
+      "url": "https://marcurares.bandcamp.com/album/open-white"
+    }
+  ],
+  "total": 19
+}
