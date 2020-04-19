@@ -28,17 +28,6 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontWeight: '500',
   },
-  albumSection: {
-    backgroundColor: colors.black,
-    paddingBottom: 30,
-  },
-  albumsHeading: {
-    color: colors.white,
-    fontSize: 18,
-    marginBottom: 15,
-    textAlign: 'center',
-    fontWeight: '700',
-  },
   gradient: {
     left: 0,
     right: 0,
