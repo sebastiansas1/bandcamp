@@ -1,15 +1,15 @@
-import TrackPlayer from 'react-native-track-player';
+import TrackPlayer, { Capability } from 'react-native-track-player';
 import Playlist from './Playlist';
 
 const capabilities = [
-  TrackPlayer.CAPABILITY_PLAY,
-  TrackPlayer.CAPABILITY_PAUSE,
-  TrackPlayer.CAPABILITY_SKIP,
-  TrackPlayer.CAPABILITY_SEEK_TO,
-  TrackPlayer.CAPABILITY_JUMP_BACKWARD,
-  TrackPlayer.CAPABILITY_JUMP_FORWARD,
-  TrackPlayer.CAPABILITY_SKIP_TO_NEXT,
-  TrackPlayer.CAPABILITY_SKIP_TO_PREVIOUS,
+  Capability.Play,
+  Capability.Pause,
+  Capability.Skip,
+  Capability.SeekTo,
+  Capability.JumpBackward,
+  Capability.JumpForward,
+  Capability.SkipToNext,
+  Capability.SkipToPrevious,
 ];
 
 const options = {
