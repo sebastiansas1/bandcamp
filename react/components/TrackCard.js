@@ -32,8 +32,8 @@ export default function TrackCard({ track, onPress, isPlaying }) {
 
 const convertInMinutes = (value) => {
   const duration = String(value);
-  const timeInDecimals = String(duration.slice(0, duration.indexOf('.')) / 60);
-  let seconds = Math.round(timeInDecimals.slice(timeInDecimals.indexOf('.')) * 60);
+  const timeInDecimals = String(duration.slice(0, duration.indexOf('.') > 0 ? duration.indexOf('.') : duration.length) / 60);
+  let seconds = Math.round(timeInDecimals.slice(timeInDecimals.indexOf('.') > 0 ? timeInDecimals.indexOf('.') : timeInDecimals.length) * 60);
   if (seconds < 10) seconds = `0${seconds}`;
-  return timeInDecimals.slice(0, timeInDecimals.indexOf('.')) + ':' + seconds;
+  return timeInDecimals.slice(0, timeInDecimals.indexOf('.') > 0 ? timeInDecimals.indexOf('.') : timeInDecimals.length) + ':' + seconds;
 };

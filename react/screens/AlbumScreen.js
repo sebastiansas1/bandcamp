@@ -12,7 +12,7 @@ import colors from '../consts/colors';
 
 const OPACITY_HEIGHT = 1.3;
 
-export default function AlbumScreen({ route, navigation: { navigate } }) {
+export default function AlbumScreen({ route, navigation: { navigate, goBack } }) {
   const { title: albumName, artist, imageUrl, raw } = route.params;
   const [tracks, setTracks] = useState([]);
   const [playables, setPlayables] = useState([]);
@@ -36,7 +36,7 @@ export default function AlbumScreen({ route, navigation: { navigate } }) {
   return (
     <View style={styles.mainContainer}>
       <ArtistScreenNav
-        onBack={() => navigate('Artist')}
+        onBack={goBack}
         onMore={() => alert('More')}
         followButtonOpacity={0}
         headerText={albumName}
@@ -65,6 +65,7 @@ export default function AlbumScreen({ route, navigation: { navigate } }) {
             key={`track-${index}`}
             index={index + 1}
             track={track}
+            artist={artist}
             isPlaying={playables[index].id === Playlist.current}
             onPress={() => {
               if (playables[index].id === Playlist.current) {
@@ -94,7 +95,7 @@ const transformToPlayable = (item, artist, imageUrl) => {
 
 const transformToTrack = (item) => {
   return {
-    title: item.title,
+    title: item.title || "null",
     duration: item.duration
   };
 };

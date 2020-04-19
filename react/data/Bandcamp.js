@@ -14,6 +14,26 @@ const getArtistData = async (artistUrl) => {
   }
 };
 
+const getAlbumData = async (albumUrl) => {
+  try {
+    const { data } = await axios.get(endpoints.tracks, { params: { albumUrl } });
+    const album = data.results;
+    return album;
+  } catch (error) {
+    alert(error);
+  }
+};
+
+const getCollatedAlbumData = async (albumName, artistName) => {
+  try {
+    const { data } = await axios.get(endpoints.collated, { params: { albumName, artistName } });
+    const album = data.results;
+    return album;
+  } catch (error) {
+    alert(error);
+  }
+};
+
 const transformToPlayable = (track) => {
   return {
     id: `${track.raw.artist}---${track.title}`,
@@ -24,4 +44,4 @@ const transformToPlayable = (track) => {
   };
 };
 
-export default { getArtistData };
+export default { getArtistData, getAlbumData, getCollatedAlbumData };

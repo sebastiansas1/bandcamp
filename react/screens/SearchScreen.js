@@ -8,10 +8,12 @@ import { InputField, Icon, SearchResultCard } from '../components';
 
 import styles from './styles/SearchScreenStyles';
 import { endpoints } from '../utils/ApiUtility';
+import Bandcamp from '../data/Bandcamp';
 
 export default function SearchScreen({ navigation }) {
   const [query, setQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     if (query.length === 0) return setSearchResults([]);
@@ -31,9 +33,21 @@ export default function SearchScreen({ navigation }) {
     }
   };
 
-  const navigateToResult = (itemId) => {
+  const navigateToResult = async (itemId) => {
     const searchItem = searchResults.find(({ id }) => id === itemId);
     if (searchItem.type === 'Artist') navigation.navigate('Artist', searchItem);
+    if (searchItem.type === 'Album') {
+      setIsLoading(true);
+      const album = await Bandcamp.getAlbumData(searchItem.url);
+      setIsLoading(false);
+      navigation.navigate('Album', album);
+    };
+    if (searchItem.type === 'Track') {
+      setIsLoading(true);
+      const album = await Bandcamp.getCollatedAlbumData(searchItem.album, searchItem.artist);
+      setIsLoading(false);
+      navigation.navigate('Album', album);
+    };
   };
 
   const clearSearch = () => {
@@ -69,6 +83,7 @@ export default function SearchScreen({ navigation }) {
         imageUrl={item.imageUrl}
         paragraph={paragraph}
         onPress={navigateToResult}
+        isLoading={isLoading}
         roundImage={item.type === 'Artist'}
       />
     );
