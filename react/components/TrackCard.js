@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
 
 import Typography from './Typography';

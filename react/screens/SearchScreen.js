@@ -4,9 +4,7 @@ import axios from 'axios';
 
 import colors from '../consts/colors';
 import { capitalize } from '../utils/StringUtility';
-import InputField from '../components/InputField';
-import Icon from '../components/Icon';
-import SearchResultCard from '../components/SearchResultCard';
+import { InputField, Icon, SearchResultCard } from '../components';
 
 import styles from './styles/SearchScreenStyles';
 import { endpoints } from '../utils/ApiUtility';

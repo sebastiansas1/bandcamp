@@ -11,23 +11,38 @@ export default StyleSheet.create({
     height: Dimensions.get('window').height - 160,
   },
   middleContainer: {
-    marginTop: 200,
+    marginTop: 100,
     width: '100%',
     marginBottom: 80,
   },
-  artistName: {
+  albumName: {
     color: colors.white,
-    paddingHorizontal: 50,
+    paddingHorizontal: 20,
     textAlign: 'center',
     fontWeight: 'bold',
   },
-  artistLocation: {
+  albumDetail: {
     color: colors.lightGray,
-    marginTop: 30,
+    marginTop: 10,
     paddingHorizontal: 50,
     textAlign: 'center',
     fontWeight: '400',
     fontSize: 12,
+  },
+  albumImage: {
+    alignSelf: "center",
+    marginBottom: 20,
+  },
+  albumImageContainer: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.6,
+    shadowRadius: 6,
+    
+    elevation: 11,
   },
   gradient: {
     left: 0,

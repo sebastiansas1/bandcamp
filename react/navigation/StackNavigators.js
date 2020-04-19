@@ -1,8 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import SearchScreen from '../screens/SearchScreen';
-import ArtistScreen from '../screens/ArtistScreen';
+import { AlbumScreen, ArtistScreen, SearchScreen } from '../screens';
 
 const Stack = createStackNavigator();
 
@@ -11,6 +10,7 @@ export function SearchStack() {
     <Stack.Navigator headerMode={'none'}>
       <Stack.Screen name="Search" component={SearchScreen} />
       <Stack.Screen name="Artist" component={ArtistScreen} />
+      <Stack.Screen name="Album" component={AlbumScreen} />
     </Stack.Navigator>
   );
 }

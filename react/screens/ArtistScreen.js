@@ -73,7 +73,7 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
               <AlbumCard
                 key={`album-${index}`}
                 album={album}
-                onPress={() => alert('Hello!')}
+                onPress={() => navigate("Album", album)}
               />
             ))}
           </Section>
@@ -81,7 +81,6 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
         {tracks.length > 0 && (
           <Section title="Tracks">
             {tracks.map((track, index) => {
-              console.log(current);
               return <TrackCard
                 key={`track-${index}`}
                 track={track}
@@ -103,13 +102,3 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
     </View>
   );
 }
-
-const createTrack = (track) => {
-  return {
-    id: `${track.raw.artist}---${track.title}`,
-    url: track.raw.trackinfo[0].file["mp3-128"],
-    title: track.title,
-    artist: track.raw.artist,
-    artwork: track.imageUrl,
-  };
-};

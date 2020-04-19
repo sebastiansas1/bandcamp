@@ -24,21 +24,17 @@ export default function ArtistScreenNav({
       <TouchableOpacity style={styles.arrowIcon} onPress={onBack} activeOpacity={0.4}>
         <Icon name="chevron-left" color={colors.white} size={35} />
       </TouchableOpacity>
-      {followButtonOpacity < 0 && (
         <View style={{ opacity: headerOpacity }}>
           <TouchableOpacity style={styles.header}>
-            <Image source={{ uri: imageUrl, height: 40, width: 40 }} style={styles.headerImage} />
+            {imageUrl && <Image source={{ uri: imageUrl, height: 40, width: 40 }} style={styles.headerImage} />}
             <Text style={styles.headerText}>{headerText}</Text>
           </TouchableOpacity>
         </View>
-      )}
-      {followButtonOpacity > 0 && (
-        <View style={{ opacity: followButtonOpacity }}>
+        {onFollow && <View style={{ opacity: followButtonOpacity }}>
           <TouchableOpacity style={styles.followButton} onPress={onFollow} activeOpacity={0.8}>
             <Text style={styles.followText}>+ FOLLOW</Text>
           </TouchableOpacity>
-        </View>
-      )}
+        </View>}
       <TouchableOpacity style={styles.moreIcon} onPress={onMore} activeOpacity={0.4}>
         <Icon name="more-horiz" color={colors.white} size={25} />
       </TouchableOpacity>

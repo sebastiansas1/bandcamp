@@ -20,9 +20,10 @@ export default StyleSheet.create({
   },
   header: {
     paddingVertical: 10,
-    alignSelf: 'flex-start',
-    flexDirection: 'row',
+    alignSelf: 'center',
     alignItems: 'center',
+    margin: "auto",
+    flexDirection: 'row',
   },
   headerImage: {
     padding: 0,
