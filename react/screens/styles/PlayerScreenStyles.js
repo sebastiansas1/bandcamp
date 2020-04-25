@@ -87,12 +87,11 @@ export default StyleSheet.create({
   playPauseBtns: {
     alignSelf: "center",
     borderRadius: 500,
-    paddingHorizontal: 25,
     paddingVertical: 50,
   },
   skipBtns: {
     alignSelf: "center",
-    paddingHorizontal: 25,
+    paddingHorizontal: 15,
     paddingVertical: 50,
     fontWeight: "100"
   }

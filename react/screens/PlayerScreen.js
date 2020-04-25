@@ -53,8 +53,8 @@ export default function PlayerScreen() {
     setPosition(pos);
   };
 
-  const onSeeking = (wtf) => {
-    console.log(wtf);
+  const onSeeking = (pos) => {
+    setPosition(pos);
   };
 
   const onSeekingStart = () => {
@@ -82,11 +82,12 @@ export default function PlayerScreen() {
     };
   }, [date]);
 
+
+
   const activeColor = duration && colors.white || colors.lightGray;
 
   return (
     <View style={styles.mainContainer}>
-      {/* <Typography style={styles.header} text={title} tag="h1" /> */}
       <View style={{ ...styles.trackImageContainer }}>
         <Image source={{ uri: artwork }} style={{ ...styles.trackImage }} />
       </View>
@@ -113,10 +114,12 @@ export default function PlayerScreen() {
         </View>
       </View>
       <View style={styles.mediaControls}>
-        <Icon name="skip-previous" onPress={skipPrev} color={activeColor} style={styles.skipBtns} size={45} />
+        <Icon name="skip-next" onPress={skipNext} color={activeColor} style={styles.skipBtns} size={35} />
+        <Icon name="skip-previous" onPress={skipPrev} color={activeColor} style={styles.skipBtns} size={35} />
         {isPlaying && <Icon name="pause-circle-filled" onPress={pauseMusic} color={activeColor} style={styles.playPauseBtns} size={75} />}
         {!isPlaying && <Icon name="play-circle-filled" onPress={playMusic} color={activeColor} style={styles.playPauseBtns} size={75} />}
-        <Icon name="skip-next" onPress={skipNext} color={activeColor} style={styles.skipBtns} size={45} />
+        <Icon name="skip-next" onPress={skipNext} color={activeColor} style={styles.skipBtns} size={35} />
+        <Icon name="skip-next" onPress={skipNext} color={activeColor} style={styles.skipBtns} size={35} />
       </View>
     </View>
   );
