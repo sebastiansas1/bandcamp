@@ -10,7 +10,7 @@ export default function App() {
   Player.init();
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
       <NavigationContainer>
         <TabNavigator />
       </NavigationContainer>

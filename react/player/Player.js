@@ -28,6 +28,11 @@ class Player {
     Playlist.init();
   }
 
+  static play = () => {
+    Player.state = "play";
+    TrackPlayer.play();
+  };
+
   static pause = () => {
     Player.state = "pause";
     TrackPlayer.pause();
@@ -42,7 +47,15 @@ class Player {
     Playlist.remove(playable);
   };
 
-  static play = async (playable) => {
+  static position = async () => {
+    return TrackPlayer.getPosition();
+  };
+
+  static duration = async () => {
+    return await TrackPlayer.getDuration();
+  };
+
+  static loadNPlay = async (playable) => {
     this.remove(playable);
     TrackPlayer.stop();
     this.add(playable);

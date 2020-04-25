@@ -1,60 +1,123 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { View, Text, Image } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Image } from 'react-native';
+import { Slider } from 'react-native-elements';
 import TrackPlayer from 'react-native-track-player';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
-import Typography from '../components/Typography';
+import { Icon, Typography } from '../components';
 import Playlist from '../player/Playlist';
+import Player from '../player/Player';
 import styles from './styles/PlayerScreenStyles';
 import colors from '../consts/colors';
-import Animated, { Easing } from 'react-native-reanimated';
+import { convertToTime } from '../utils/StringUtility';
 
 
 export default function PlayerScreen() {
-  const rotate = useRef(new Animated.Value(0)).current;
-  rotate.setValue(0);
-  const spin = rotate.interpolate({
-    inputRange: [0, 1],
-    outputRange: [0, 360]
-  });
+  const [isPlaying, setIsPlaying] = useState(Player.state === "play");
+  const [isSeeking, setIsSeeking] = useState(false);
+  const [position, setPosition] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [date, setDate] = useState(Date.now());
+  const [updateInterval, setUpdateInterval] = useState(null);
+  const { artwork, title, artist } = Playlist.currentTrack;
 
-  const { artwork } = Playlist.currentTrack;
+  const playMusic = () => {
+    if (!artwork) return;
+    Player.play();
+    setIsPlaying(true);
+  };
+
+  const pauseMusic = () => {
+    if (!artwork) return;
+    Player.pause();
+    setIsPlaying(false);
+  };
+
+  const skipNext = () => {
+    if (!artwork) return;
+    Player.next();
+  };
+
+  const skipPrev = () => {
+    if (!artwork) return;
+    Player.previous();
+  };
+
+
+  const getDuration = async () => {
+    const dur = await TrackPlayer.getDuration();
+    setDuration(dur);
+  };
+
+  const getPosition = async () => {
+    const pos = await TrackPlayer.getPosition();
+    setPosition(pos);
+  };
+
+  const onSeeking = (wtf) => {
+    console.log(wtf);
+  };
+
+  const onSeekingStart = () => {
+    setIsSeeking(true);
+  };
+
+  const onSeekComplete = async (pos) => {
+    setIsSeeking(false);
+    await TrackPlayer.seekTo(pos);
+    await getPosition();
+  };
 
   useEffect(() => {
-    Animated.timing(rotate, {
-      toValue: 1,
-      easing: Easing.linear,
-      duration: 80000,
-      useNativeDriver: true
-    }).start();
+    getDuration();
+    getPosition();
+    setUpdateInterval(setInterval(() => setDate(Date.now()), 1000));
   }, []);
+
+  useEffect(() => {
+    if (!isSeeking) {
+      getPosition();
+    };
+    () => {
+      clearInterval(updateInterval);
+    };
+  }, [date]);
+
+  const activeColor = duration && colors.white || colors.lightGray;
 
   return (
     <View style={styles.mainContainer}>
-      <Typography style={styles.header} text="Player" tag="h1" />
+      {/* <Typography style={styles.header} text={title} tag="h1" /> */}
       <View style={{ ...styles.trackImageContainer }}>
-        <Animated.Image source={{ uri: artwork, height: 90, width: 90 }} style={{ ...styles.trackImage, transform: [{ rotate: spin }] }} />
-        <View style={{ width: 10, height: 10, position: "absolute", backgroundColor: colors.white, alignSelf: "center", top: "48%", borderRadius: 50 }} />
+        <Image source={{ uri: artwork }} style={{ ...styles.trackImage }} />
       </View>
-      <TouchableOpacity onPress={() => {
-        rotate.setValue(0);
-        Animated.timing(rotate, {
-          toValue: 1,
-          easing: Easing.linear,
-          duration: 80000,
-          useNativeDriver: true
-        }).start();
-        TrackPlayer.play();
-      }}>
-        <View style={{ alignSelf: "center", marginTop: 200 }}><Text style={{ color: colors.white, fontSize: 50, fontWeight: "700" }}>PLAY</Text></View>
-      </TouchableOpacity>
-      <TouchableOpacity onPress={() => {
-        rotate.setValue(0);
-        TrackPlayer.pause();
-      }
-      }>
-        <View style={{ alignSelf: "center", marginTop: 100 }}><Text style={{ color: colors.white, fontSize: 50, fontWeight: "700" }}>PAUSE</Text></View>
-      </TouchableOpacity>
+      <View style={styles.musicInfo}>
+        <Typography text={title} maxChar={40} style={{ ...styles.trackName, fontSize: 15, color: colors.white, fontWeight: "700" }} />
+        <Typography text={artist} maxChar={40} style={{ ...styles.trackName, fontSize: 13, color: colors.light }} />
+      </View>
+      <View style={styles.seekBar}>
+        <Slider
+          maximumValue={duration}
+          onValueChange={onSeeking}
+          onSlidingStart={onSeekingStart}
+          onSlidingComplete={onSeekComplete}
+          value={position}
+          minimumTrackTintColor={duration && colors.light || "transparent"}
+          maximumTrackTintColor={colors.lightGray}
+          thumbTouchSize={{ width: 50, height: 50 }}
+          trackStyle={styles.seekBarTrack}
+          thumbTintColor={duration && colors.white || "transparent"}
+        />
+        <View style={styles.trackTimesContainer}>
+          <Typography text={convertToTime(position)} style={styles.trackTime} />
+          <Typography text={"-" + convertToTime(duration - position)} style={styles.trackTime} />
+        </View>
+      </View>
+      <View style={styles.mediaControls}>
+        <Icon name="skip-previous" onPress={skipPrev} color={activeColor} style={styles.skipBtns} size={45} />
+        {isPlaying && <Icon name="pause-circle-filled" onPress={pauseMusic} color={activeColor} style={styles.playPauseBtns} size={75} />}
+        {!isPlaying && <Icon name="play-circle-filled" onPress={playMusic} color={activeColor} style={styles.playPauseBtns} size={75} />}
+        <Icon name="skip-next" onPress={skipNext} color={activeColor} style={styles.skipBtns} size={45} />
+      </View>
     </View>
   );
 }

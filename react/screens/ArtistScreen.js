@@ -99,7 +99,7 @@ export default function ArtistScreen({ route, navigation: { navigate }, navigati
                   } else {
                     setCurrent({ trackId: Playlist.currentTrack.id, isPlaying: true });
                   }
-                  Player.play(playables[index]);
+                  Player.loadNPlay(playables[index]);
                 }}
               />;
             })}

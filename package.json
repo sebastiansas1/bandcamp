@@ -20,6 +20,7 @@
     "expo-linear-gradient": "8.1.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
+    "react-native-elements": "^1.2.7",
     "react-native-error-boundary": "^1.0.3",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-keyboard-aware-scroll-view": "^0.9.1",

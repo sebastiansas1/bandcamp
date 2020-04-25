@@ -5,11 +5,12 @@ import Typography from './Typography';
 import styles from './styles/TrackCardStyles';
 import Icon from './Icon';
 import colors from '../consts/colors';
+import { convertToTime } from '../utils/StringUtility';
 
 export default function TrackCard({ track, onPress, isPlaying }) {
   const { title, raw, imageUrl } = track;
   const subtitle = raw.current['publish_date'].slice(3, 11);
-  const paragraph = `Duration: ${convertInMinutes(raw.trackinfo[0].duration)}`;
+  const paragraph = `Duration: ${convertToTime(raw.trackinfo[0].duration)}`;
 
   return (
     <TouchableOpacity style={styles.container} activeOpacity={0.7} onPress={onPress}>
@@ -29,11 +30,3 @@ export default function TrackCard({ track, onPress, isPlaying }) {
     </TouchableOpacity>
   );
 }
-
-const convertInMinutes = (value) => {
-  const duration = String(value);
-  const timeInDecimals = String(duration.slice(0, duration.indexOf('.') > 0 ? duration.indexOf('.') : duration.length) / 60);
-  let seconds = Math.round(timeInDecimals.slice(timeInDecimals.indexOf('.') > 0 ? timeInDecimals.indexOf('.') : timeInDecimals.length) * 60);
-  if (seconds < 10) seconds = `0${seconds}`;
-  return timeInDecimals.slice(0, timeInDecimals.indexOf('.') > 0 ? timeInDecimals.indexOf('.') : timeInDecimals.length) + ':' + seconds;
-};
