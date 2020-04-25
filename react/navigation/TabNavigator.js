@@ -49,7 +49,7 @@ export function TabNavigator() {
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Search" component={SearchStack} />
       <Tab.Screen name="Messages" component={LoginScreen} />
-      <Tab.Screen name="Player" component={PlayerScreen} />
+      <Tab.Screen name="Player" component={PlayerScreen} options={{ unmountOnBlur: true }} />
     </Tab.Navigator>
   );
 }

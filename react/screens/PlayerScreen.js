@@ -1,53 +1,58 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text } from 'react-native';
-
-import Typography from '../components/Typography';
-import styles from './styles/PlayerScreenStyles';
-
+import React, { useEffect, useState, useRef } from 'react';
+import { View, Text, Image } from 'react-native';
 import TrackPlayer from 'react-native-track-player';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+
+import Typography from '../components/Typography';
+import Playlist from '../player/Playlist';
+import styles from './styles/PlayerScreenStyles';
 import colors from '../consts/colors';
+import Animated, { Easing } from 'react-native-reanimated';
 
-// TrackPlayer.setupPlayer().then(() => {
-//   // The player is ready to be used
-// });
-
-// const track = {
-//   id: '#1',
-//   url: 'https://t4.bcbits.com/stream/d165e9d785c66fa9e99531c22fb5b630/mp3-128/2758497599?p=0&ts=1587317625&t=4d8bcdc613c68df9e6a38b03577ad60fcf98157f&token=1587317625_0018b2563b884a978f56d2b9cd14aa39dca33a38', // Load media from the network
-
-//   title: 'Avaritia',
-//   artist: 'deadmau5',
-//   album: 'while(1<2)',
-//   genre: 'Progressive House, Electro House',
-//   date: '2014-05-20T07:00:00+00:00', // RFC 3339
-//   artwork: 'https://en.wikipedia.org/wiki/Avaritia_(instrumental)#/media/File:Avaritia-album-artwork.jpg',
-// };
-
-
-// TrackPlayer.add([track]).then(function () {
-//   // The tracks were added
-// });
 
 export default function PlayerScreen() {
-  const [player, setPlayer] = useState(null);
+  const rotate = useRef(new Animated.Value(0)).current;
+  rotate.setValue(0);
+  const spin = rotate.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0, 360]
+  });
 
-  const getPlayerState = async () => {
-    const data = await TrackPlayer.getState();
-    setPlayer(data);
-  }
+  const { artwork } = Playlist.currentTrack;
 
   useEffect(() => {
-    getPlayerState();
+    Animated.timing(rotate, {
+      toValue: 1,
+      easing: Easing.linear,
+      duration: 80000,
+      useNativeDriver: true
+    }).start();
   }, []);
 
   return (
     <View style={styles.mainContainer}>
       <Typography style={styles.header} text="Player" tag="h1" />
-      <TouchableOpacity onPress={() => TrackPlayer.play()}>
+      <View style={{ ...styles.trackImageContainer }}>
+        <Animated.Image source={{ uri: artwork, height: 90, width: 90 }} style={{ ...styles.trackImage, transform: [{ rotate: spin }] }} />
+        <View style={{ width: 10, height: 10, position: "absolute", backgroundColor: colors.white, alignSelf: "center", top: "48%", borderRadius: 50 }} />
+      </View>
+      <TouchableOpacity onPress={() => {
+        rotate.setValue(0);
+        Animated.timing(rotate, {
+          toValue: 1,
+          easing: Easing.linear,
+          duration: 80000,
+          useNativeDriver: true
+        }).start();
+        TrackPlayer.play();
+      }}>
         <View style={{ alignSelf: "center", marginTop: 200 }}><Text style={{ color: colors.white, fontSize: 50, fontWeight: "700" }}>PLAY</Text></View>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => TrackPlayer.pause()}>
+      <TouchableOpacity onPress={() => {
+        rotate.setValue(0);
+        TrackPlayer.pause();
+      }
+      }>
         <View style={{ alignSelf: "center", marginTop: 100 }}><Text style={{ color: colors.white, fontSize: 50, fontWeight: "700" }}>PAUSE</Text></View>
       </TouchableOpacity>
     </View>

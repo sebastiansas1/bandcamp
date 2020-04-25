@@ -1,4 +1,4 @@
-const baseUrl = 'http://192.168.1.224:4000/api';
+const baseUrl = 'https://bandcamp-api.herokuapp.com/api';
 
 export const endpoints = {
   search: `${baseUrl}/search`,

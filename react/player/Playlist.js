@@ -1,10 +1,16 @@
 class Playlist {
   static items = [];
-  static current;
+  static currentTrack = { id: 0 };
 
   static init() {
     items = [];
-    current = undefined;
+    currentTrack = {
+      id: undefined
+    };
+  }
+
+  static find(trackId) {
+    return this.items.find(({ id }) => id === trackId)[0];
   }
 
   static add(item, index = this.items.length) {

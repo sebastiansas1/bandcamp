@@ -11,12 +11,12 @@ import Playlist from '../player/Playlist';
 
 const OPACITY_HEIGHT = 1.3;
 
-export default function ArtistScreen({ route, navigation: { navigate } }) {
+export default function ArtistScreen({ route, navigation: { navigate }, navigation }) {
   const { name: artistName, imageUrl, location, url: artistUrl } = route.params;
   const [albums, setAlbums] = useState([]);
   const [tracks, setTracks] = useState([]);
   const [playables, setPlayables] = useState([]);
-  const [current, setCurrent] = useState({ track: Playlist.current, isPlaying: Player.state === "play" });
+  const [current, setCurrent] = useState({ trackId: Playlist.currentTrack && Playlist.currentTrack.id, isPlaying: Player.state === "play" });
   const [isLoading, setIsLoading] = useState(false);
   const [scrollHeight, setScrollHeight] = useState(0);
   const [opacity, setOpacity] = useState({ artist: 1, followBtn: 1, header: 0 });
@@ -28,6 +28,14 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
       header: -(OPACITY_HEIGHT - scrollHeight)
     });
   }, [scrollHeight, current]);
+
+  useEffect(() => {
+    const unsubscribe = navigation.addListener('focus', () => {
+      setCurrent({ trackId: Playlist.currentTrack && Playlist.currentTrack.id, isPlaying: Player.state === "play" });
+    });
+
+    return unsubscribe;
+  }, [navigation]);
 
   const getData = async () => {
     setIsLoading(true);
@@ -84,18 +92,17 @@ export default function ArtistScreen({ route, navigation: { navigate } }) {
               return <TrackCard
                 key={`track-${index}`}
                 track={track}
-                isPlaying={playables[index].id === Playlist.current}
+                isPlaying={playables[index].id === Playlist.currentTrack.id}
                 onPress={() => {
-                  if (playables[index].id === Playlist.current) {
-                    setCurrent({ track: Playlist.current, isPlaying: !current.isPlaying });
+                  if (playables[index].id === Playlist.currentTrack.id) {
+                    setCurrent({ trackId: Playlist.currentTrack.id, isPlaying: !current.isPlaying });
                   } else {
-                    setCurrent({ track: Playlist.current, isPlaying: true });
+                    setCurrent({ trackId: Playlist.currentTrack.id, isPlaying: true });
                   }
                   Player.play(playables[index]);
                 }}
               />;
             })}
-
           </Section>
         )}
       </ScrollView>

@@ -35,17 +35,18 @@ class Player {
 
   static add = (playable, index) => {
     TrackPlayer.add(playable);
-    Playlist.add(playable.id, index);
+    Playlist.add(playable, index);
   };
 
   static remove = (playable) => {
-    Playlist.remove(playable.id);
+    Playlist.remove(playable);
   };
 
   static play = async (playable) => {
+    this.remove(playable);
     TrackPlayer.stop();
     this.add(playable);
-    Playlist.current = playable.id;
+    Playlist.currentTrack = playable;
     TrackPlayer.play();
     Player.state = "play";
   };
