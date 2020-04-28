@@ -78,7 +78,7 @@ export default function PlayerScreen() {
       getPosition();
     };
     () => {
-      clearInterval(updateInterval);
+      return clearInterval(updateInterval);
     };
   }, [date]);
 
@@ -104,7 +104,7 @@ export default function PlayerScreen() {
           value={position}
           minimumTrackTintColor={duration && colors.light || "transparent"}
           maximumTrackTintColor={colors.lightGray}
-          thumbTouchSize={{ width: 50, height: 50 }}
+          thumbStyle={isSeeking ? { width: 25, height: 25, borderRadius: 500 } : { width: 15, height: 15, borderRadius: 500 }}
           trackStyle={styles.seekBarTrack}
           thumbTintColor={duration && colors.white || "transparent"}
         />
