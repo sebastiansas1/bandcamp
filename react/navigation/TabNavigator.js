@@ -29,23 +29,22 @@ export function TabNavigator() {
             default:
               break;
           }
-        },
+        }
       })}
       tabBarOptions={{
-        activeTintColor: colors.blue,
+        activeTintColor: colors.white,
         style: {
           paddingTop: 10,
           backgroundColor: colors.darker,
-          borderTopColor: colors.black,
+          borderTopColor: colors.black
         },
         labelStyle: {
-          fontSize: 10,
+          fontSize: 10
         },
         keyboardHidesTabBar: false,
         inactiveTintColor: colors.lightDark,
-        showLabel: false,
-      }}
-    >
+        showLabel: false
+      }}>
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Search" component={SearchStack} />
       <Tab.Screen name="Messages" component={LoginScreen} />

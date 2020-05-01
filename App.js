@@ -3,17 +3,20 @@ import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
 import { TabNavigator } from './react/navigation/TabNavigator';
-import Player from './react/player/Player';
-
+import { PlayerProvider } from './react/context/PlayerContext';
+import { PlaylistProvider } from './react/context/PlaylistContext';
 
 export default function App() {
-  Player.init();
   return (
     <>
-      <StatusBar barStyle="light-content" />
-      <NavigationContainer>
-        <TabNavigator />
-      </NavigationContainer>
+      <PlaylistProvider>
+        <PlayerProvider>
+          <StatusBar barStyle="light-content" />
+          <NavigationContainer>
+            <TabNavigator />
+          </NavigationContainer>
+        </PlayerProvider>
+      </PlaylistProvider>
     </>
   );
-};
+}
