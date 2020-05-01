@@ -11,7 +11,7 @@ export default function ArtistScreenNav({
   onBack,
   onMore,
   onFollow,
-  followButtonOpacity = 1,
+  followButtonOpacity = 1
 }) {
   const [navBarBackground, setNavBarBackground] = useState(`rgba(0,0,0, ${headerOpacity})`);
 
@@ -22,19 +22,21 @@ export default function ArtistScreenNav({
   return (
     <View style={{ ...styles.container, backgroundColor: navBarBackground }}>
       <TouchableOpacity style={styles.arrowIcon} onPress={onBack} activeOpacity={0.4}>
-        <Icon name="chevron-left" color={colors.white} size={35} />
+        <Icon name="chevron-left" color={colors.white} style={{ marginRight: 1 }} size={35} />
       </TouchableOpacity>
-        <View style={{ opacity: headerOpacity }}>
-          <TouchableOpacity style={styles.header}>
-            {imageUrl && <Image source={{ uri: imageUrl, height: 40, width: 40 }} style={styles.headerImage} />}
-            <Text style={styles.headerText}>{headerText}</Text>
-          </TouchableOpacity>
-        </View>
-        {onFollow && <View style={{ opacity: followButtonOpacity }}>
+      <View style={{ opacity: headerOpacity }}>
+        <TouchableOpacity style={styles.header}>
+          {imageUrl && <Image source={{ uri: imageUrl, height: 40, width: 40 }} style={styles.headerImage} />}
+          <Text style={styles.headerText}>{headerText}</Text>
+        </TouchableOpacity>
+      </View>
+      {onFollow && (
+        <View style={{ opacity: followButtonOpacity }}>
           <TouchableOpacity style={styles.followButton} onPress={onFollow} activeOpacity={0.8}>
             <Text style={styles.followText}>+ FOLLOW</Text>
           </TouchableOpacity>
-        </View>}
+        </View>
+      )}
       <TouchableOpacity style={styles.moreIcon} onPress={onMore} activeOpacity={0.4}>
         <Icon name="more-horiz" color={colors.white} size={25} />
       </TouchableOpacity>
