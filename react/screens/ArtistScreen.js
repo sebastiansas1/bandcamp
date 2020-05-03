@@ -54,6 +54,14 @@ export default function ArtistScreen({ route, navigation: { navigate }, navigati
     Player.loadNPlay(track);
   };
 
+  const handleQueue = async index => {
+    const track = playables[index];
+    if (Playlist.isTrackInQueue(playables[index])) {
+      Playlist.remove(track);
+    }
+    Playlist.add(track);
+  };
+
   return (
     <View style={styles.mainContainer}>
       <ArtistScreenNav
@@ -98,7 +106,7 @@ export default function ArtistScreen({ route, navigation: { navigate }, navigati
                     isPlaying={playables[index].id === Playlist.current.id}
                     isQueued={Playlist.isTrackInQueue(playables[index])}
                     onPressPlay={() => handlePlay(index)}
-                    onPressQueue={() => Player.add(playables[index])}
+                    onPressQueue={() => handleQueue(index)}
                   />
                 );
               })}

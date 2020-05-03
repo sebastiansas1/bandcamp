@@ -16,13 +16,18 @@ export default function TrackCard({ track, onPressPlay, onPressQueue, isPlaying,
     <TouchableOpacity style={styles.container} activeOpacity={0.7} onPress={onPressPlay}>
       <Image width={20} source={{ uri: imageUrl }} style={{ ...styles.image, width: 55, height: 55 }} />
       <View style={{ ...styles.header, height: 55 }}>
-        <Typography maxChar={25} style={styles.title} text={title} tag="h2" />
+        <Typography
+          maxChar={30}
+          style={{ ...styles.title, color: isPlaying ? colors.lightBlue : colors.white }}
+          text={title}
+          tag="h2"
+        />
         <Typography maxChar={40} style={styles.subtitle} text={subtitle} tag="p" />
         <Typography maxChar={40} style={styles.paragraph} text={paragraph} tag="p" />
       </View>
       <Icon
-        name={isPlaying ? 'play-circle-filled' : 'playlist-add'}
-        color={isQueued && !isPlaying ? colors.lightBlue : colors.white}
+        name={isQueued ? 'playlist-add-check' : 'playlist-add'}
+        color={colors.white}
         size={25}
         onPress={onPressQueue}
         style={{ alignSelf: 'center', position: 'absolute', right: 0 }}

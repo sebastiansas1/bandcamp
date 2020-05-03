@@ -5,21 +5,21 @@ import colors from '../../consts/colors';
 export default StyleSheet.create({
   mainContainer: {
     flex: 1,
-    backgroundColor: colors.black,
+    backgroundColor: colors.black
   },
   mainScrollView: {
-    height: Dimensions.get('window').height - 160,
+    height: Dimensions.get('window').height - 120
   },
   middleContainer: {
     marginTop: 200,
     width: '100%',
-    marginBottom: 80,
+    marginBottom: 80
   },
   artistName: {
     color: colors.white,
     paddingHorizontal: 50,
     textAlign: 'center',
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   },
   artistLocation: {
     color: colors.lightGray,
@@ -27,35 +27,35 @@ export default StyleSheet.create({
     paddingHorizontal: 50,
     textAlign: 'center',
     fontWeight: '400',
-    fontSize: 12,
+    fontSize: 12
   },
   gradient: {
     left: 0,
     right: 0,
     top: 50,
     height: 400,
-    position: 'absolute',
+    position: 'absolute'
   },
   image: {
     padding: 0,
     margin: 0,
     zIndex: -1,
     position: 'absolute',
-    alignSelf: 'center',
+    alignSelf: 'center'
   },
   spinner: {
-    color: colors.lightGray,
+    color: colors.lightGray
   },
   arrowIcon: {
     zIndex: 1,
     top: 60,
     left: 10,
-    position: 'absolute',
+    position: 'absolute'
   },
   moreIcon: {
     zIndex: 1,
     top: 60,
     right: 20,
-    position: 'absolute',
-  },
+    position: 'absolute'
+  }
 });

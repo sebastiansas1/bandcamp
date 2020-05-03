@@ -28,62 +28,52 @@ const PlayerProvider = ({ children }) => {
   useEffect(() => {
     TrackPlayer.setupPlayer();
     TrackPlayer.updateOptions(options);
-    Playlist.update();
-    updateStatus();
+  }, []);
+
+  useEffect(() => {
+    TrackPlayer.addEventListener('playback-state', ({ state }) => {
+      setStatus(state);
+    });
   }, []);
 
   const play = () => {
     TrackPlayer.play();
-    Playlist.update();
-    updateStatus();
   };
 
   const reset = () => {
     TrackPlayer.reset();
-    Playlist.updateQueue();
-    updateStatus();
-  };
-
-  const updateStatus = async () => {
-    TrackPlayer.getState().then(state => {
-      setStatus(state);
-    });
   };
 
   const loadNPlay = async track => {
     TrackPlayer.stop();
+    await Playlist.clear();
     add(track);
     play();
-    Playlist.update();
-    updateStatus();
   };
 
   const pause = () => {
     TrackPlayer.pause();
-    Playlist.update();
-    updateStatus();
   };
 
   const add = track => {
     TrackPlayer.add(track);
-    Playlist.update();
-    updateStatus();
+    Playlist.add(track);
   };
 
   const next = () => {
-    TrackPlayer.skipToNext();
-    Playlist.update();
-    updateStatus();
+    TrackPlayer.skip(Playlist.nextTrack().id);
+  };
+
+  const skipTo = track => {
+    TrackPlayer.skip(Playlist.skipTo(track).id);
   };
 
   const previous = () => {
-    TrackPlayer.skipToPrevious();
-    Playlist.update();
-    updateStatus();
+    TrackPlayer.skipToPrevious(Playlist.previousTrack().id);
   };
 
   return (
-    <PlayerContext.Provider value={{ status, play, loadNPlay, pause, reset, add, next, previous }}>
+    <PlayerContext.Provider value={{ status, play, loadNPlay, pause, reset, add, next, previous, skipTo }}>
       {children}
     </PlayerContext.Provider>
   );

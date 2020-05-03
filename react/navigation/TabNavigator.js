@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -7,12 +7,24 @@ import HomeScreen from '../screens/HomeScreen';
 import colors from '../consts/colors';
 import PlayerScreen from '../screens/PlayerScreen';
 import { SearchStack } from './StackNavigators';
+import { PlaylistContext, PlayerContext } from '../context';
+import { Image } from 'react-native';
 
 const TabIcon = ({ name, color }) => <Icon name={name} color={color} size={28} />;
 
 const Tab = createBottomTabNavigator();
 
 export function TabNavigator() {
+  const [playerIcon, setPlayerIcon] = useState(null);
+  const Playlist = useContext(PlaylistContext);
+  const Player = useContext(PlayerContext);
+
+  useEffect(() => {
+    if (Playlist.current.id && Player.status === 'playing') {
+      setPlayerIcon(<Image source={{ uri: Playlist.current.artwork }} style={{ height: 28, width: 28 }} />);
+    }
+  }, [Playlist.current, Player.status]);
+
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -22,10 +34,8 @@ export function TabNavigator() {
               return TabIcon({ name: 'dashboard', color });
             case 'Search':
               return TabIcon({ name: 'search', color });
-            case 'Messages':
-              return TabIcon({ name: 'message', color });
             case 'Player':
-              return TabIcon({ name: 'play-circle-filled', color });
+              return playerIcon || TabIcon({ name: 'play-circle-filled', color });
             default:
               break;
           }
@@ -47,8 +57,7 @@ export function TabNavigator() {
       }}>
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Search" component={SearchStack} />
-      <Tab.Screen name="Messages" component={LoginScreen} />
-      <Tab.Screen name="Player" component={PlayerScreen} options={{ unmountOnBlur: true }} />
+      <Tab.Screen name="Player" component={PlayerScreen} />
     </Tab.Navigator>
   );
 }

@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { View, Image, Text, Dimensions } from 'react-native';
-import { ScrollView } from 'react-native-gesture-handler';
+import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import LinearGradient from 'react-native-linear-gradient';
 
-import { ArtistScreenNav } from '../components';
+import { ArtistScreenNav, SoftButton, Icon } from '../components';
 import styles from './styles/AlbumScreenStyles';
 import PlayerContext from '../context/PlayerContext';
 import PlaylistContext from '../context/PlaylistContext';
@@ -65,7 +65,15 @@ export default function AlbumScreen({ route, navigation: { goBack }, navigation 
         onScroll={e => setScrollHeight(e.nativeEvent.contentOffset.y / 100)}
         scrollEventThrottle={1}>
         <LinearGradient
-          colors={['rgba(0, 0, 0, 0.0)', 'rgba(0, 0, 0, 0.4)', 'rgba(0, 0, 0, 0.9)', 'rgba(0, 0, 0, 1)']}
+          colors={[
+            'rgba(0, 0, 0, 0.0)',
+            'rgba(0, 0, 0, 0.8)',
+            'rgba(0, 0, 0, 1)',
+            'rgba(0, 0, 0, 1)',
+            'rgba(0, 0, 0, 1)',
+            'rgba(0, 0, 0, 1)',
+            'rgba(0, 0, 0, 1)'
+          ]}
           style={styles.gradient}
         />
         <View style={styles.middleContainer}>
@@ -80,6 +88,10 @@ export default function AlbumScreen({ route, navigation: { goBack }, navigation 
             Album by {artist} • {raw.current['release_date'].slice(7, 11)}
           </Text>
         </View>
+        <TouchableOpacity style={styles.playBtn} activeOpacity={0.7}>
+          {/* <Icon name="ios-play" style={styles.playBtnIcon} vendor="ionicons" /> */}
+          <Text style={styles.playBtnText}>LISTEN ALBUM</Text>
+        </TouchableOpacity>
         <View style={{ backgroundColor: colors.black, paddingBottom: 90, paddingTop: 20 }}>
           {tracks.map((track, index) => {
             return (

@@ -17,6 +17,8 @@ export default function TrackCompact({ index, track, artist, onPressPlay, onPres
           ...styles.artist,
           alignSelf: 'center',
           width: 15,
+          fontWeight: '700',
+          fontSize: 12,
           color: isPlaying ? colors.blue : colors.lightGray
         }}
         text={index}
@@ -32,8 +34,8 @@ export default function TrackCompact({ index, track, artist, onPressPlay, onPres
         <Typography maxChar={25} style={styles.artist} text={artist} tag="h2" />
       </View>
       <Icon
-        name={isPlaying ? 'play-circle-filled' : 'playlist-add'}
-        color={isQueued && !isPlaying ? colors.lightBlue : colors.white}
+        name={isQueued ? 'playlist-add-check' : 'playlist-add'}
+        color={colors.white}
         size={25}
         onPress={onPressQueue}
         style={{ alignSelf: 'center', position: 'absolute', right: 0 }}
